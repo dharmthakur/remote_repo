@@ -1,0 +1,1765 @@
+2019-01-14 15:22:49 INFO  BasePage:31 - launching application
+2019-01-14 15:22:49 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:49 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:49 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:49 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:49 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:49 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:49 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:49 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/url HTTP/1.1
+2019-01-14 15:22:49 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:49 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:49 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/url HTTP/1.1
+2019-01-14 15:22:49 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:49 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 32
+2019-01-14 15:22:49 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:49 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:49 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:49 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/url HTTP/1.1[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:49 DEBUG wire:86 - http-outgoing-0 >> "{"url":"http://localhost:8888/"}"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:50 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:50 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:50 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:50 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:50 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 36
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 >> "{"using":"name","value":"user_name"}"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Length:103[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.31328237678574933-1"}}"
+2019-01-14 15:22:50 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Length:103
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:50 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:50 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:50 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-1/value HTTP/1.1
+2019-01-14 15:22:50 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-1/value HTTP/1.1
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 48
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-1/value HTTP/1.1[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 >> "{"id":"0.31328237678574933-1","value":["admin"]}"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:50 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 INFO  LPage:24 - username entered
+2019-01-14 15:22:50 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:50 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:50 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:50 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:50 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 40
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 40[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 >> "{"using":"name","value":"user_password"}"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Length:103[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.31328237678574933-2"}}"
+2019-01-14 15:22:50 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Length:103
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:50 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:50 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:50 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-2/value HTTP/1.1
+2019-01-14 15:22:50 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-2/value HTTP/1.1
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 48
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-2/value HTTP/1.1[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 >> "{"id":"0.31328237678574933-2","value":["admin"]}"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:50 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 INFO  LPage:26 - password entered
+2019-01-14 15:22:50 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:50 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:50 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:50 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:50 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 37
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 37[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"submitButton"}"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Length:103[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.31328237678574933-3"}}"
+2019-01-14 15:22:50 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Length:103
+2019-01-14 15:22:50 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:50 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:50 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:50 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:50 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-3/click HTTP/1.1
+2019-01-14 15:22:50 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:50 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-3/click HTTP/1.1
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 30
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:50 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.31328237678574933-3/click HTTP/1.1[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:50 DEBUG wire:86 - http-outgoing-0 >> "{"id":"0.31328237678574933-3"}"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:53 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:53 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:53 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:53 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:22:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:53 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:53 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:53 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:53 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 71
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 71[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 >> "{"using":"xpath","value":"//img[@src='themes/softed/images/user.PNG']"}"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "Content-Length:102[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.8750459413674598-1"}}"
+2019-01-14 15:22:53 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:53 DEBUG headers:127 - http-outgoing-0 << Content-Length:102
+2019-01-14 15:22:53 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:53 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:53 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:53 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:53 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:53 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 56
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 >> "{"using":"xpath","value":"//a[contains(text(),'Sign')]"}"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "Content-Length:102[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.8750459413674598-2"}}"
+2019-01-14 15:22:53 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:53 DEBUG headers:127 - http-outgoing-0 << Content-Length:102
+2019-01-14 15:22:53 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:53 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:53 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:53 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:53 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1
+2019-01-14 15:22:53 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:53 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 34
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:53 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 34[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:53 DEBUG wire:86 - http-outgoing-0 >> "{"element":"0.8750459413674598-1"}"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:54 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:54 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:54 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:54 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:54 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:54 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:54 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1
+2019-01-14 15:22:54 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:54 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:54 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 34
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 34[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 >> "{"element":"0.8750459413674598-2"}"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:54 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:54 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:54 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:54 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:54 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:54 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:54 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1
+2019-01-14 15:22:54 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:54 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:54 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 34
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/moveto HTTP/1.1[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 34[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 >> "{"element":"0.8750459413674598-2"}"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:54 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:54 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:54 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:54 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:54 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:54 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:54 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:54 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/click HTTP/1.1
+2019-01-14 15:22:54 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:54 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:54 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/click HTTP/1.1
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 12
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:54 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/click HTTP/1.1[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 12[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:54 DEBUG wire:86 - http-outgoing-0 >> "{"button":0}"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:56 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:56 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:56 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:56 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 36
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 >> "{"using":"name","value":"user_name"}"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.046955703722654896-1"}}"
+2019-01-14 15:22:56 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Length:104
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:56 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:56 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-1/value HTTP/1.1
+2019-01-14 15:22:56 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-1/value HTTP/1.1
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 49
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-1/value HTTP/1.1[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 >> "{"id":"0.046955703722654896-1","value":["admin"]}"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:56 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 INFO  LPage:24 - username entered
+2019-01-14 15:22:56 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:56 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:56 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:56 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 40
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 40[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 >> "{"using":"name","value":"user_password"}"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.046955703722654896-2"}}"
+2019-01-14 15:22:56 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Length:104
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:56 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:56 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-2/value HTTP/1.1
+2019-01-14 15:22:56 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-2/value HTTP/1.1
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 49
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-2/value HTTP/1.1[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 >> "{"id":"0.046955703722654896-2","value":["admin"]}"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:56 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 INFO  LPage:26 - password entered
+2019-01-14 15:22:56 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:56 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:56 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:56 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 37
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element HTTP/1.1[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 37[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 >> "{"using":"id","value":"submitButton"}"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":{"ELEMENT":"0.046955703722654896-3"}}"
+2019-01-14 15:22:56 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Length:104
+2019-01-14 15:22:56 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:56 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:56 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:56 DEBUG MainClientExec:255 - Executing request POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-3/click HTTP/1.1
+2019-01-14 15:22:56 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:56 DEBUG headers:135 - http-outgoing-0 >> POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-3/click HTTP/1.1
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 31
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:56 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "POST /session/b1a1fb266a8cc4ba5f434335e57efc29/element/0.046955703722654896-3/click HTTP/1.1[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 31[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:56 DEBUG wire:86 - http-outgoing-0 >> "{"id":"0.046955703722654896-3"}"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:59 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:59 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:59 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:59 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:59 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:22:59 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:59 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:59 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:59 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:59 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:59 DEBUG MainClientExec:255 - Executing request GET /session/b1a1fb266a8cc4ba5f434335e57efc29/title HTTP/1.1
+2019-01-14 15:22:59 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:59 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:59 DEBUG headers:135 - http-outgoing-0 >> GET /session/b1a1fb266a8cc4ba5f434335e57efc29/title HTTP/1.1
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> Cache-Control: no-cache
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "GET /session/b1a1fb266a8cc4ba5f434335e57efc29/title HTTP/1.1[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "Content-Length:134[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM"}"
+2019-01-14 15:22:59 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:59 DEBUG headers:127 - http-outgoing-0 << Content-Length:134
+2019-01-14 15:22:59 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:59 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:59 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:22:59 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:41565][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:59 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:22:59 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2019-01-14 15:22:59 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10800000
+2019-01-14 15:22:59 DEBUG MainClientExec:255 - Executing request DELETE /session/b1a1fb266a8cc4ba5f434335e57efc29 HTTP/1.1
+2019-01-14 15:22:59 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:22:59 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:22:59 DEBUG headers:135 - http-outgoing-0 >> DELETE /session/b1a1fb266a8cc4ba5f434335e57efc29 HTTP/1.1
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:41565
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:22:59 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "DELETE /session/b1a1fb266a8cc4ba5f434335e57efc29 HTTP/1.1[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:41565[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-01-14 15:22:59 DEBUG wire:86 - http-outgoing-0 << "{"sessionId":"b1a1fb266a8cc4ba5f434335e57efc29","status":0,"value":null}"
+2019-01-14 15:22:59 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-01-14 15:22:59 DEBUG headers:127 - http-outgoing-0 << Content-Length:72
+2019-01-14 15:22:59 DEBUG headers:127 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:22:59 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:41565] can be kept alive indefinitely
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:41565][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:22:59 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 0 SECONDS
+2019-01-14 15:22:59 DEBUG DefaultManagedHttpClientConnection:81 - http-outgoing-0: Close connection
+2019-01-14 15:23:01 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:01 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:01 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2019-01-14 15:23:01 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:01 DEBUG MainClientExec:234 - Opening connection {}->http://localhost:4332
+2019-01-14 15:23:01 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to localhost/127.0.0.1:4332
+2019-01-14 15:23:01 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:56833<->127.0.0.1:4332
+2019-01-14 15:23:01 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:01 DEBUG MainClientExec:255 - Executing request POST /session HTTP/1.1
+2019-01-14 15:23:01 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:01 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:01 DEBUG headers:135 - http-outgoing-1 >> POST /session HTTP/1.1
+2019-01-14 15:23:01 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:01 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 122
+2019-01-14 15:23:01 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:01 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:01 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:01 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "POST /session HTTP/1.1[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 122[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:01 DEBUG wire:86 - http-outgoing-1 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 << "Content-Length:1000[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387)","userDataDir":"C:\\Users\\DHARME~1\\AppData\\Local\\Temp\\scoped_dir6760_24296"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:56834"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","proxy":{},"rotatable":false,"setWindowRect":true,"strictFileInteractability":false,"takesHeapSnapshot":true,"takesScreenshot":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unexpectedAlertBehaviour":"ignore","version":"71.0.3578.98","webStorageEnabled":true}}"
+2019-01-14 15:23:03 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:03 DEBUG headers:127 - http-outgoing-1 << Content-Length:1000
+2019-01-14 15:23:03 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:03 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:03 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:03 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:03 INFO  BasePage:31 - launching application
+2019-01-14 15:23:03 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:03 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:03 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:03 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:03 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:03 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:03 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:03 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/url HTTP/1.1
+2019-01-14 15:23:03 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:03 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:03 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/url HTTP/1.1
+2019-01-14 15:23:03 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:03 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 32
+2019-01-14 15:23:03 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:03 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:03 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:03 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/url HTTP/1.1[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 32[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:03 DEBUG wire:86 - http-outgoing-1 >> "{"url":"http://localhost:8888/"}"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:04 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:04 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:04 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:04 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:04 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:04 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:04 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:04 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:04 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:04 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:04 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:04 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 36
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 36[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:86 - http-outgoing-1 >> "{"using":"name","value":"user_name"}"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "Content-Length:102[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.2966840644540285-1"}}"
+2019-01-14 15:23:04 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:04 DEBUG headers:127 - http-outgoing-1 << Content-Length:102
+2019-01-14 15:23:04 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:04 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:04 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:04 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:04 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:04 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:04 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:04 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:04 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-1/value HTTP/1.1
+2019-01-14 15:23:04 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:04 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:04 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-1/value HTTP/1.1
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 47
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:04 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-1/value HTTP/1.1[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 47[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:04 DEBUG wire:86 - http-outgoing-1 >> "{"id":"0.2966840644540285-1","value":["admin"]}"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:05 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 INFO  LPage:24 - username entered
+2019-01-14 15:23:05 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:05 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:05 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:05 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:05 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 40
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 40[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 >> "{"using":"name","value":"user_password"}"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Length:102[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.2966840644540285-2"}}"
+2019-01-14 15:23:05 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Length:102
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:05 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:05 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:05 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-2/value HTTP/1.1
+2019-01-14 15:23:05 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-2/value HTTP/1.1
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 47
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-2/value HTTP/1.1[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 47[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 >> "{"id":"0.2966840644540285-2","value":["admin"]}"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:05 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 INFO  LPage:26 - password entered
+2019-01-14 15:23:05 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:05 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:05 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:05 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:05 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 37
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 37[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 >> "{"using":"id","value":"submitButton"}"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Length:102[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.2966840644540285-3"}}"
+2019-01-14 15:23:05 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Length:102
+2019-01-14 15:23:05 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:05 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:05 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:05 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:05 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-3/click HTTP/1.1
+2019-01-14 15:23:05 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:05 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-3/click HTTP/1.1
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 29
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:05 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.2966840644540285-3/click HTTP/1.1[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 29[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:05 DEBUG wire:86 - http-outgoing-1 >> "{"id":"0.2966840644540285-3"}"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:07 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:07 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:07 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:07 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:23:07 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:07 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:07 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:07 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:07 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:07 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:07 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 71
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 71[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 >> "{"using":"xpath","value":"//img[@src='themes/softed/images/user.PNG']"}"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "Content-Length:102[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.9322409173412329-1"}}"
+2019-01-14 15:23:07 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:07 DEBUG headers:127 - http-outgoing-1 << Content-Length:102
+2019-01-14 15:23:07 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:07 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:07 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:07 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:07 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:07 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:07 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:07 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 56
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 56[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 >> "{"using":"xpath","value":"//a[contains(text(),'Sign')]"}"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "Content-Length:102[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.9322409173412329-2"}}"
+2019-01-14 15:23:07 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:07 DEBUG headers:127 - http-outgoing-1 << Content-Length:102
+2019-01-14 15:23:07 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:07 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:07 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:07 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:07 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:07 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1
+2019-01-14 15:23:07 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:07 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:07 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 34
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:07 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 34[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:07 DEBUG wire:86 - http-outgoing-1 >> "{"element":"0.9322409173412329-1"}"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:08 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:08 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:08 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:08 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:08 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:08 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:08 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1
+2019-01-14 15:23:08 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:08 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:08 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 34
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 34[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 >> "{"element":"0.9322409173412329-2"}"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:08 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:08 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:08 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:08 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:08 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:08 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:08 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1
+2019-01-14 15:23:08 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:08 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:08 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 34
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/moveto HTTP/1.1[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 34[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 >> "{"element":"0.9322409173412329-2"}"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:08 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:08 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:08 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:08 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:08 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:08 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:08 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:08 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/click HTTP/1.1
+2019-01-14 15:23:08 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:08 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:08 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/click HTTP/1.1
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 12
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:08 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/click HTTP/1.1[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 12[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:08 DEBUG wire:86 - http-outgoing-1 >> "{"button":0}"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:11 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:11 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:11 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:11 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:11 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 36
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 36[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 >> "{"using":"name","value":"user_name"}"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Length:103[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.18407324684056614-1"}}"
+2019-01-14 15:23:11 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Length:103
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:11 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:11 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:11 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-1/value HTTP/1.1
+2019-01-14 15:23:11 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-1/value HTTP/1.1
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 48
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-1/value HTTP/1.1[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 48[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 >> "{"id":"0.18407324684056614-1","value":["admin"]}"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:11 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 INFO  LPage:24 - username entered
+2019-01-14 15:23:11 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:11 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:11 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:11 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:11 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 40
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 40[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 >> "{"using":"name","value":"user_password"}"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Length:103[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.18407324684056614-2"}}"
+2019-01-14 15:23:11 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Length:103
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:11 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:11 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:11 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-2/value HTTP/1.1
+2019-01-14 15:23:11 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-2/value HTTP/1.1
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 48
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-2/value HTTP/1.1[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 48[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 >> "{"id":"0.18407324684056614-2","value":["admin"]}"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:11 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 INFO  LPage:26 - password entered
+2019-01-14 15:23:11 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:11 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:11 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:11 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:11 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 37
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element HTTP/1.1[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 37[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 >> "{"using":"id","value":"submitButton"}"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Length:103[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":{"ELEMENT":"0.18407324684056614-3"}}"
+2019-01-14 15:23:11 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Length:103
+2019-01-14 15:23:11 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:11 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:11 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:11 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:11 DEBUG MainClientExec:255 - Executing request POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-3/click HTTP/1.1
+2019-01-14 15:23:11 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:11 DEBUG headers:135 - http-outgoing-1 >> POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-3/click HTTP/1.1
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 30
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:11 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "POST /session/778b9e5f3947f60366ebb65398ac0d3f/element/0.18407324684056614-3/click HTTP/1.1[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 30[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:11 DEBUG wire:86 - http-outgoing-1 >> "{"id":"0.18407324684056614-3"}"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:14 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:14 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:14 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:14 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:14 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:23:14 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:14 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:14 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:14 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:14 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:14 DEBUG MainClientExec:255 - Executing request GET /session/778b9e5f3947f60366ebb65398ac0d3f/title HTTP/1.1
+2019-01-14 15:23:14 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:14 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:14 DEBUG headers:135 - http-outgoing-1 >> GET /session/778b9e5f3947f60366ebb65398ac0d3f/title HTTP/1.1
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> Cache-Control: no-cache
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "GET /session/778b9e5f3947f60366ebb65398ac0d3f/title HTTP/1.1[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "Cache-Control: no-cache[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "Content-Length:134[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":"Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM"}"
+2019-01-14 15:23:14 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:14 DEBUG headers:127 - http-outgoing-1 << Content-Length:134
+2019-01-14 15:23:14 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:14 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:14 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-01-14 15:23:14 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://localhost:4332][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:14 DEBUG MainClientExec:207 - Stale connection check
+2019-01-14 15:23:14 DEBUG wire:86 - http-outgoing-1 << "[read] I/O error: Read timed out"
+2019-01-14 15:23:14 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10800000
+2019-01-14 15:23:14 DEBUG MainClientExec:255 - Executing request DELETE /session/778b9e5f3947f60366ebb65398ac0d3f HTTP/1.1
+2019-01-14 15:23:14 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-01-14 15:23:14 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-01-14 15:23:14 DEBUG headers:135 - http-outgoing-1 >> DELETE /session/778b9e5f3947f60366ebb65398ac0d3f HTTP/1.1
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> Host: localhost:4332
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-01-14 15:23:14 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "DELETE /session/778b9e5f3947f60366ebb65398ac0d3f HTTP/1.1[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "Host: localhost:4332[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-01-14 15:23:14 DEBUG wire:86 - http-outgoing-1 << "{"sessionId":"778b9e5f3947f60366ebb65398ac0d3f","status":0,"value":null}"
+2019-01-14 15:23:14 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-01-14 15:23:14 DEBUG headers:127 - http-outgoing-1 << Content-Length:72
+2019-01-14 15:23:14 DEBUG headers:127 - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2019-01-14 15:23:14 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 1][route: {}->http://localhost:4332] can be kept alive indefinitely
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://localhost:4332][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2019-01-14 15:23:14 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 0 SECONDS
+2019-01-14 15:23:14 DEBUG DefaultManagedHttpClientConnection:81 - http-outgoing-1: Close connection
+2019-01-14 15:26:04 INFO  BasePage:31 - launching application
+2019-01-14 15:26:05 INFO  LPage:24 - username entered
+2019-01-14 15:26:05 INFO  LPage:26 - password entered
+2019-01-14 15:26:09 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:26:13 INFO  LPage:24 - username entered
+2019-01-14 15:26:13 INFO  LPage:26 - password entered
+2019-01-14 15:26:16 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:26:20 INFO  BasePage:31 - launching application
+2019-01-14 15:26:21 INFO  LPage:24 - username entered
+2019-01-14 15:26:22 INFO  LPage:26 - password entered
+2019-01-14 15:26:24 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:26:28 INFO  LPage:24 - username entered
+2019-01-14 15:26:28 INFO  LPage:26 - password entered
+2019-01-14 15:26:30 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:33:21 INFO  BasePage:31 - launching application
+2019-01-14 15:33:23 INFO  LPage:24 - username entered
+2019-01-14 15:33:23 INFO  LPage:26 - password entered
+2019-01-14 15:33:26 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:33:30 INFO  LPage:24 - username entered
+2019-01-14 15:33:30 INFO  LPage:26 - password entered
+2019-01-14 15:33:33 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:33:38 INFO  BasePage:31 - launching application
+2019-01-14 15:33:39 INFO  LPage:24 - username entered
+2019-01-14 15:33:39 INFO  LPage:26 - password entered
+2019-01-14 15:33:42 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:33:46 INFO  LPage:24 - username entered
+2019-01-14 15:33:46 INFO  LPage:26 - password entered
+2019-01-14 15:33:49 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:39:46 INFO  BasePage:31 - launching application
+2019-01-14 15:39:54 INFO  LPage:24 - username entered
+2019-01-14 15:39:54 INFO  LPage:26 - password entered
+2019-01-14 15:40:04 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:40:04 INFO  TestcaseDemo:43 - valid login verified
+2019-01-14 15:40:12 INFO  TestcaseDemo:45 - signing out the application
+2019-01-14 15:40:12 INFO  LPage:24 - username entered
+2019-01-14 15:40:13 INFO  LPage:26 - password entered
+2019-01-14 15:40:15 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:40:20 INFO  BasePage:31 - launching application
+2019-01-14 15:40:21 INFO  LPage:24 - username entered
+2019-01-14 15:40:21 INFO  LPage:26 - password entered
+2019-01-14 15:40:24 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:40:24 INFO  TestcaseDemo:43 - valid login verified
+2019-01-14 15:40:28 INFO  TestcaseDemo:45 - signing out the application
+2019-01-14 15:40:28 INFO  LPage:24 - username entered
+2019-01-14 15:40:28 INFO  LPage:26 - password entered
+2019-01-14 15:40:30 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:46:51 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 15:46:51 INFO  TestcaseDemo:33 - in before class
+2019-01-14 15:46:51 INFO  BasePage:61 - in extentreport method
+2019-01-14 15:46:51 INFO  BasePage:37 - in webdriver method
+2019-01-14 15:46:54 INFO  BasePage:31 - in initialise method
+2019-01-14 15:46:54 INFO  BasePage:56 - in launchApplication method
+2019-01-14 15:46:55 INFO  LPage:24 - username entered
+2019-01-14 15:46:56 INFO  LPage:26 - password entered
+2019-01-14 15:46:59 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:46:59 INFO  TestcaseDemo:45 - valid login verified
+2019-01-14 15:47:02 INFO  TestcaseDemo:47 - signing out the application
+2019-01-14 15:47:02 INFO  BasePage:67 - inside aftermethod
+2019-01-14 15:47:02 INFO  LPage:24 - username entered
+2019-01-14 15:47:02 INFO  LPage:26 - password entered
+2019-01-14 15:47:05 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:47:05 INFO  BasePage:67 - inside aftermethod
+2019-01-14 15:47:05 INFO  BasePage:86 - in afterclass
+2019-01-14 15:47:07 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 15:47:07 INFO  TestcaseDemo:33 - in before class
+2019-01-14 15:47:07 INFO  BasePage:61 - in extentreport method
+2019-01-14 15:47:07 INFO  BasePage:37 - in webdriver method
+2019-01-14 15:47:10 INFO  BasePage:31 - in initialise method
+2019-01-14 15:47:10 INFO  BasePage:56 - in launchApplication method
+2019-01-14 15:47:11 INFO  LPage:24 - username entered
+2019-01-14 15:47:11 INFO  LPage:26 - password entered
+2019-01-14 15:47:14 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:47:14 INFO  TestcaseDemo:45 - valid login verified
+2019-01-14 15:47:18 INFO  TestcaseDemo:47 - signing out the application
+2019-01-14 15:47:18 INFO  BasePage:67 - inside aftermethod
+2019-01-14 15:47:18 INFO  LPage:24 - username entered
+2019-01-14 15:47:18 INFO  LPage:26 - password entered
+2019-01-14 15:47:21 INFO  LPage:28 - clicked on submit button
+2019-01-14 15:47:21 INFO  BasePage:67 - inside aftermethod
+2019-01-14 15:47:21 INFO  BasePage:86 - in afterclass
+2019-01-14 16:47:02 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 16:47:02 INFO  TestcaseDemo:33 - in before class
+2019-01-14 16:47:02 INFO  BasePage:75 - in extentreport method
+2019-01-14 16:47:02 INFO  BasePage:41 - in webdriver method
+2019-01-14 16:47:20 INFO  BasePage:35 - in initialise method
+2019-01-14 16:47:20 INFO  BasePage:69 - in launchApplication method
+2019-01-14 16:47:38 INFO  LPage:24 - username entered
+2019-01-14 16:47:38 INFO  LPage:26 - password entered
+2019-01-14 16:47:54 INFO  LPage:28 - clicked on submit button
+2019-01-14 16:47:54 INFO  TestcaseDemo:45 - valid login verified
+2019-01-14 16:48:02 INFO  TestcaseDemo:47 - signing out the application
+2019-01-14 16:48:02 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:48:03 INFO  LPage:24 - username entered
+2019-01-14 16:48:03 INFO  LPage:26 - password entered
+2019-01-14 16:48:05 INFO  LPage:28 - clicked on submit button
+2019-01-14 16:48:05 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:48:05 INFO  BasePage:59 - in screenshot method
+2019-01-14 16:48:06 INFO  BasePage:101 - in afterclass
+2019-01-14 16:48:09 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 16:48:09 INFO  TestcaseDemo:33 - in before class
+2019-01-14 16:48:09 INFO  BasePage:75 - in extentreport method
+2019-01-14 16:48:09 INFO  BasePage:41 - in webdriver method
+2019-01-14 16:48:11 INFO  BasePage:35 - in initialise method
+2019-01-14 16:48:11 INFO  BasePage:69 - in launchApplication method
+2019-01-14 16:48:12 INFO  LPage:24 - username entered
+2019-01-14 16:48:12 INFO  LPage:26 - password entered
+2019-01-14 16:48:15 INFO  LPage:28 - clicked on submit button
+2019-01-14 16:48:15 INFO  TestcaseDemo:45 - valid login verified
+2019-01-14 16:48:19 INFO  TestcaseDemo:47 - signing out the application
+2019-01-14 16:48:19 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:48:19 INFO  LPage:24 - username entered
+2019-01-14 16:48:19 INFO  LPage:26 - password entered
+2019-01-14 16:48:21 INFO  LPage:28 - clicked on submit button
+2019-01-14 16:48:21 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:48:21 INFO  BasePage:59 - in screenshot method
+2019-01-14 16:48:22 INFO  BasePage:101 - in afterclass
+2019-01-14 16:54:01 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 16:54:01 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 16:54:01 INFO  TestcaseDemo:33 - in before class
+2019-01-14 16:54:01 INFO  TestcaseDemo:33 - in before class
+2019-01-14 16:54:01 INFO  BasePage:75 - in extentreport method
+2019-01-14 16:54:01 INFO  BasePage:75 - in extentreport method
+2019-01-14 16:54:01 INFO  BasePage:41 - in webdriver method
+2019-01-14 16:54:01 INFO  BasePage:41 - in webdriver method
+2019-01-14 16:54:06 INFO  BasePage:35 - in initialise method
+2019-01-14 16:54:06 INFO  BasePage:69 - in launchApplication method
+2019-01-14 16:54:07 INFO  BasePage:35 - in initialise method
+2019-01-14 16:54:07 INFO  BasePage:69 - in launchApplication method
+2019-01-14 16:54:09 INFO  LPage:24 - username entered
+2019-01-14 16:54:10 INFO  LPage:26 - password entered
+2019-01-14 16:54:11 INFO  LPage:24 - username entered
+2019-01-14 16:54:11 INFO  LPage:26 - password entered
+2019-01-14 16:54:13 INFO  LPage:28 - clicked on submit button
+2019-01-14 16:54:13 INFO  TestcaseDemo:45 - valid login verified
+2019-01-14 16:54:16 INFO  LPage:28 - clicked on submit button
+2019-01-14 16:54:16 INFO  TestcaseDemo:45 - valid login verified
+2019-01-14 16:54:22 INFO  TestcaseDemo:47 - signing out the application
+2019-01-14 16:54:22 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:54:22 INFO  LPage:24 - username entered
+2019-01-14 16:54:22 INFO  LPage:26 - password entered
+2019-01-14 16:54:25 INFO  TestcaseDemo:47 - signing out the application
+2019-01-14 16:54:25 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:54:25 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:54:25 INFO  BasePage:59 - in screenshot method
+2019-01-14 16:54:26 INFO  BasePage:101 - in afterclass
+2019-01-14 16:54:27 INFO  LPage:28 - clicked on submit button
+2019-01-14 16:54:27 INFO  BasePage:81 - inside aftermethod
+2019-01-14 16:54:27 INFO  BasePage:59 - in screenshot method
+2019-01-14 16:54:28 INFO  BasePage:101 - in afterclass
+2019-01-14 17:27:13 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 17:27:13 INFO  TestcaseDemo:28 - in beforetest
+2019-01-14 17:27:13 INFO  TestcaseDemo:33 - in before class
+2019-01-14 17:27:13 INFO  TestcaseDemo:33 - in before class
+2019-01-14 17:27:13 INFO  BasePage:75 - in extentreport method
+2019-01-14 17:27:13 INFO  BasePage:75 - in extentreport method
+2019-01-14 17:27:13 INFO  BasePage:41 - in webdriver method
+2019-01-14 17:27:13 INFO  BasePage:41 - in webdriver method
+2019-01-14 17:27:18 INFO  BasePage:35 - in initialise method
+2019-01-14 17:27:18 INFO  BasePage:69 - in launchApplication method
+2019-01-14 17:27:18 INFO  BasePage:35 - in initialise method
+2019-01-14 17:27:18 INFO  BasePage:69 - in launchApplication method
+2019-01-14 17:27:21 INFO  LPage:24 - username entered
+2019-01-14 17:27:21 INFO  LPage:26 - password entered
+2019-01-14 17:27:21 INFO  LPage:24 - username entered
+2019-01-14 17:27:21 INFO  LPage:26 - password entered
+2019-01-14 17:27:25 INFO  LPage:28 - clicked on submit button
+2019-01-14 17:27:25 INFO  BasePage:81 - inside aftermethod
+2019-01-14 17:27:25 INFO  BasePage:101 - in afterclass
+2019-01-14 17:27:26 INFO  LPage:28 - clicked on submit button
+2019-01-14 17:27:26 INFO  BasePage:81 - inside aftermethod
+2019-01-14 17:27:26 INFO  BasePage:101 - in afterclass

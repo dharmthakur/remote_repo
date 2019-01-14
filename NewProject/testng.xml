@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+<parameter name="url" value="http://localhost:8888/"></parameter>
+  <test name="Test1">
+  <parameter name="browser" value="CH"></parameter>
+    <classes>
+      <class name="testpackage.TestcaseDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  <parameter name="browser" value="CH"></parameter>
+    <classes>
+      <class name="testpackage.TestcaseDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
