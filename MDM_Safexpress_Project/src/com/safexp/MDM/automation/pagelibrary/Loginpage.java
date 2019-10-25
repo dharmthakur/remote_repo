@@ -8,11 +8,11 @@ import com.safexp.MDM.automation.Utility.UtilityClass;
 
 public class Loginpage {
 	
-	public void verifyLogin()
+	public void verifyLogin(String s1,String s2)
 	{
 		UtilityClass.getWebElement("Loginpage_login_btn").click();
-		UtilityClass.getWebElement("Loginpage_usernm_Input").sendKeys("8448828089");
-		UtilityClass.getWebElement("Loginpage_password_Input").sendKeys("dharm1180");
+		UtilityClass.getWebElement("Loginpage_usernm_Input").sendKeys(s1);
+		UtilityClass.getWebElement("Loginpage_password_Input").sendKeys(s2);
 
 	}
 
