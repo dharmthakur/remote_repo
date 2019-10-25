@@ -18,7 +18,7 @@ import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 import com.safexp.MDM.automation.Utility.UtilityClass;
-import com.safexp.MDM.automation.managerClasses.Hybrid_ReadExcel;
+
 import com.safexp.MDM.automation.managerClasses.ReadExcelData;
 import com.safexp.MDM.automation.pagelibrary.Loginpage;
 
@@ -36,15 +36,7 @@ public class TestngDemo {
 		UtilityClass.launchApplication("http://www.freecharge.in");
 	}
 	*/
-	@Test
-	public void method1()
-	{				
-		//Loginpage lp=new Loginpage();
-		//lp.verifyLogin();
-		Hybrid_ReadExcel hd=new Hybrid_ReadExcel();
-		hd.readExcelForHybrid("TestData/ModuleLogin.xls");
-				
-	}
+	
 	
 	@Test
 	public void hybridTestAutomation()
