@@ -25,7 +25,8 @@ public class UtilityClass {
 	
     public static WebDriver driver=null;
 	public static Properties OR=null;
-	
+	public static Properties conf=null;
+
 	
 	public static void Init()
 	{
@@ -43,9 +44,13 @@ public class UtilityClass {
 	public static void initOR() 
 	{
 		try {
-		FileInputStream file=new FileInputStream("OR\\OR.properties");
+		FileInputStream file_or=new FileInputStream("OR\\OR.properties");
+		FileInputStream file_config=new FileInputStream("Config\\config.properties");
+
 		OR=new Properties();
-		OR.load(file);
+		conf=new Properties();
+		OR.load(file_or);
+		conf.load(file_config);
 		}catch (IOException e)
 		{
 		// TODO Auto-generated catch block
@@ -61,9 +66,10 @@ public class UtilityClass {
 		driver.manage().window().maximize();
 	}
 	
-	public static void launchApplication(String appurl)
+	public static void launchApplication()
 	{
-		driver.get(appurl);
+		String url=conf.getProperty("ApplUrl");
+		driver.get(url);
 	}
 	public static void closeApplication()
 	{

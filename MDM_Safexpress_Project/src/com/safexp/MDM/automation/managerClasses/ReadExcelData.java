@@ -17,12 +17,12 @@ public class ReadExcelData {
 	public static Iterator<Map<String,String>> DataIt=null;
 	
 	
-	public static void readData() 
-	{
+	public static void readData(String path,String testid) 
+	{System.out.println("entring readData");
 		Fillo fillo=new Fillo();
 		try {
-			Connection con=fillo.getConnection("TestData/testdata.xls");
-			Recordset rs=con.executeQuery("select * from Sheet1");
+			Connection con=fillo.getConnection(path);
+			Recordset rs=con.executeQuery("select * from Sheet1 where TestCaseID='"+testid+"'");
 			List<String> fieldList=rs.getFieldNames();
 			Map<String,String> map=new HashMap<String,String>();
 			List<Map<String,String>> listmap=new ArrayList<Map<String,String>>();
@@ -48,6 +48,7 @@ public class ReadExcelData {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println("exiting readData");
 	}
 	
 	/*
