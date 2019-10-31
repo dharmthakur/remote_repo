@@ -20,13 +20,8 @@ public class Loginpage extends BaseClass{
 
 	}
 	
-	public void launchApp()
-	{try {
-		UtilityClass.launchApplication();
-	}catch(Exception e) {
-		UtilityClass.launchApplication();
-	}
-		//System.out.println("closing app");
-	}
+	
+		
+	
 
 }

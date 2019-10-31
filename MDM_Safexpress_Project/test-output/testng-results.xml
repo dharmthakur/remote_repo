@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12170" started-at="2019-10-30T13:23:29Z" finished-at="2019-10-30T13:23:41Z">
+  <suite name="Default suite" duration-ms="22154" started-at="2019-10-31T08:58:33Z" finished-at="2019-10-31T08:58:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12170" started-at="2019-10-30T13:23:29Z" finished-at="2019-10-30T13:23:41Z">
+    <test name="Default test" duration-ms="22154" started-at="2019-10-31T08:58:33Z" finished-at="2019-10-31T08:58:55Z">
       <class name="com.safexp.MDM.automation.testcases.TestngDemo">
-        <test-method status="PASS" signature="driverInitialisation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@2669b199]" name="driverInitialisation" is-config="true" duration-ms="4750" started-at="2019-10-30T18:53:29Z" finished-at="2019-10-30T18:53:34Z">
+        <test-method status="PASS" signature="driverInitialisation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@6574b225]" name="driverInitialisation" is-config="true" duration-ms="5507" started-at="2019-10-31T14:28:33Z" finished-at="2019-10-31T14:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInitialisation -->
-        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@2669b199]" name="launchApp" is-config="true" duration-ms="4795" started-at="2019-10-30T18:53:34Z" finished-at="2019-10-30T18:53:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="hybridTestAutomation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@2669b199]" name="hybridTestAutomation" duration-ms="2605" started-at="2019-10-30T18:53:38Z" finished-at="2019-10-30T18:53:41Z">
+        <test-method status="PASS" signature="hybridTestAutomation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@6574b225]" name="hybridTestAutomation" duration-ms="16624" started-at="2019-10-31T14:28:38Z" finished-at="2019-10-31T14:28:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hybridTestAutomation -->

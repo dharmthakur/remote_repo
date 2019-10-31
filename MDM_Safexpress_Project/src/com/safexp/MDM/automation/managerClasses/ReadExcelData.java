@@ -12,37 +12,40 @@ import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 
 public class ReadExcelData {
-	
 	public static Map<String,String> DataMap=null;
 	public static Iterator<Map<String,String>> DataIt=null;
-	
 	
 	public static void readData(String path,String testid) 
 	{System.out.println("entring readData");
 		Fillo fillo=new Fillo();
 		try {
-			Connection con=fillo.getConnection(path);
-			Recordset rs=con.executeQuery("select * from Sheet1 where TestCaseID='"+testid+"'");
+			Connection con=fillo.getConnection("TestData/testdata.xls");
+			Recordset rs=con.executeQuery("select * from Sheet1 where TestCaseID='TC01'");
 			List<String> fieldList=rs.getFieldNames();
-			Map<String,String> map=new HashMap<String,String>();
+			
 			List<Map<String,String>> listmap=new ArrayList<Map<String,String>>();
 			int fieldcount=fieldList.size();
 			while(rs.next()) 
-			{
+			{Map<String,String> map=new HashMap<String,String>();
 				
 				for(int i=3;i<fieldcount;i=i+2)
 				{
 					String fieldname=rs.getField(i).value();
-					if(fieldname!=null&&fieldname.trim().equalsIgnoreCase(" ")==false)
+					
+					if((fieldname!=null)&&(fieldname.trim().equalsIgnoreCase("")==false))
 					{
 						String fieldvalue=rs.getField(i+1).value();
 						map.put(fieldname,fieldvalue);
+						
 					}
-				
+					
 				}
 				listmap.add(map);
+				
 			}
 			DataIt=listmap.iterator();
+	
+			
 		} catch (FilloException e)
 		{
 			// TODO Auto-generated catch block

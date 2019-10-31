@@ -3,6 +3,7 @@ package com.safexp.MDM.automation.testcases;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -30,34 +31,43 @@ public class TestngDemo {
 		UtilityClass.Init();
 	}
 	
-	@BeforeMethod
+	/*@BeforeMethod
 	public void launchApp()
 	{
 		UtilityClass.launchApplication();
 	}
 	
-	
+	*/
 	
 	@Test
 	public void hybridTestAutomation()
 	{
 		try {
-	
+	/* create connection with data source*/
 		Fillo f=new Fillo();
 		Connection con=f.getConnection("TestData/ModuleLogin.xls");
+	/* select all the testcases that are to be executed */	
 		Recordset rs=con.executeQuery("select * from DriverSheet where ExecutionMode='y'");
 		while(rs.next()) 
 		{
 		String testid=rs.getField("TestCaseID");
 		System.out.println(testid);
+	/* select all the steps for current testcaseid*/	
 		Recordset rs1=con.executeQuery("select * from submodule1 where TestCaseID='"+testid+"'");
+	/* gettestdata for current testcaseid*/
 		ReadExcelData.readData("TestData/testdata.xls",testid);
+	/* execute the current testcase for each set of data*/	
+		rs1.next();
 		while(ReadExcelData.DataIt.hasNext())
 		{
+			System.out.println("calling initeration");
 			UtilityClass.Initeration();
+			System.out.println("after initeration");
+			//Recordset rs1=con.executeQuery("select * from submodule1 where TestCaseID='"+testid+"'");
 			
-		    while(rs1.next())
+			do
 	    	{
+		    
 			String javaclassName=rs1.getField("pagesheet");
 			String methodName=rs1.getField("pagekeyword");
 			System.out.println(javaclassName);
@@ -66,9 +76,9 @@ public class TestngDemo {
 			int fieldcount=rs2.getFieldNames().size();
 			int count=0;
 			System.out.println(fieldcount);
-			while(rs2.next())
-			{
-				List<String> parameterList=new ArrayList<String>();
+			rs2.next();
+			
+			List<String> parameterList=new ArrayList<String>();
 				for(int i=1;i<fieldcount;i++)
 				{   
 					String fieldname=rs2.getField(i).value();
@@ -86,30 +96,66 @@ public class TestngDemo {
 				}
 			
 				System.out.println(count);
-
-					//ReadExcelData.readData();
-					
-					
 					
 						switch(count)
 						{
-						case 0:Class cls=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
-								Object obj=cls.newInstance();
-								Method m=cls.getMethod(methodName,null);
-								m.invoke(obj,null);
+						case 0:
+							       Class cls=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
+								   Object obj=cls.newInstance();
+							       Method m=cls.getMethod(methodName,null);try{
+								   m.invoke(obj,null);
+								   }catch(Exception e)
+						            {System.out.println("in catch block");
+									 Method[] methodArray = super.getClass().getMethods();
+									 for(int i=0; i < methodArray.length; i++)
+									 {
+									   if(methodArray[i].getName().equalsIgnoreCase(methodName))
+									   {
+									         try {
+									         Object sp = super.getClass().newInstance();
+									         System.out.println("before calling");
+									         methodArray[i].invoke(sp,null);
+									         System.out.println("after call of method");
+									         } catch(Exception ex) 
+									         {
+									        break;
+									         }
+									    }
+									  }
+								    }
 								System.out.println("in case 0");
 								break;
 						 
-						case 1:Class cls1=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
-								Object obj1=cls1.newInstance();
-								Method m1=cls1.getMethod(methodName,String.class);
-								String s=parameterList.get(0);
-								System.out.println(s);
-								String p=ReadExcelData.DataMap.get(s);
-								
-								m1.invoke(obj1,p);
-								System.out.println("in case 1");
-								break;
+						case 1:
+							       Class cls1=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
+								   Object obj1=cls1.newInstance();
+								   Method m1=cls1.getMethod(methodName,String.class);
+								   String s=parameterList.get(0);
+								   System.out.println(s);
+								   String p=ReadExcelData.DataMap.get(s);
+								   System.out.println(p);
+								   try{
+								   m1.invoke(obj1,p);
+						           }catch(Exception e) {
+						        	   Method[] methodArray = super.getClass().getMethods();
+										 for(int i=0; i < methodArray.length; i++)
+										 {
+										   if(methodArray[i].getName().equalsIgnoreCase(methodName))
+										   {
+										         try {
+										         Object sp = super.getClass().newInstance();
+										         Object ob=new Object();
+										         ob=p;
+										         methodArray[i].invoke(sp,p);
+										         } catch(Exception ex) 
+										         {
+										        break;
+										         }
+										    }
+										  }
+						           }
+								   System.out.println("in case 1");
+								   break;
 						case 2: Class cls2=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
 								Object obj2=cls2.newInstance();
 								Method m2=cls2.getMethod(methodName,String.class,String.class);
@@ -134,10 +180,12 @@ public class TestngDemo {
 
 					
 					}//switch
-				}//while
-			System.out.println("hello");
-			}//while
+				
 			
+			}while(rs1.next());//while
+			rs1.moveFirst();
+			
+			Thread.sleep(3000);
 		}//while
 		}//while
 		
