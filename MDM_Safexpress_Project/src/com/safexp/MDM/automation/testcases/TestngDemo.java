@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
+import com.relevantcodes.extentreports.LogStatus;
 import com.safexp.MDM.automation.Utility.UtilityClass;
 
 import com.safexp.MDM.automation.managerClasses.ReadExcelData;
@@ -29,16 +30,11 @@ public class TestngDemo {
 	public void driverInitialisation()
 	{
 		UtilityClass.Init();
+		
+		
 	}
 	
-	/*@BeforeMethod
-	public void launchApp()
-	{
-		UtilityClass.launchApplication();
-	}
-	
-	*/
-	
+		
 	@Test
 	public void hybridTestAutomation()
 	{
@@ -50,8 +46,12 @@ public class TestngDemo {
 		Recordset rs=con.executeQuery("select * from DriverSheet where ExecutionMode='y'");
 		while(rs.next()) 
 		{
+			
 		String testid=rs.getField("TestCaseID");
+		String testcasename=rs.getField("TestCaseName");
+		UtilityClass.test=UtilityClass.report.startTest(testcasename);
 		System.out.println(testid);
+		UtilityClass.test.log(LogStatus.INFO, "Testcase"+testcasename+"is started");
 	/* select all the steps for current testcaseid*/	
 		Recordset rs1=con.executeQuery("select * from submodule1 where TestCaseID='"+testid+"'");
 	/* gettestdata for current testcaseid*/
@@ -102,27 +102,13 @@ public class TestngDemo {
 						case 0:
 							       Class cls=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
 								   Object obj=cls.newInstance();
-							       Method m=cls.getMethod(methodName,null);try{
+							       Method m=cls.getMethod(methodName,null);
+							       try{
 								   m.invoke(obj,null);
 								   }catch(Exception e)
-						            {System.out.println("in catch block");
-									 Method[] methodArray = super.getClass().getMethods();
-									 for(int i=0; i < methodArray.length; i++)
-									 {
-									   if(methodArray[i].getName().equalsIgnoreCase(methodName))
-									   {
-									         try {
-									         Object sp = super.getClass().newInstance();
-									         System.out.println("before calling");
-									         methodArray[i].invoke(sp,null);
-									         System.out.println("after call of method");
-									         } catch(Exception ex) 
-									         {
-									        break;
-									         }
-									    }
-									  }
-								    }
+						            {
+									   System.out.println("error while invoking method with no argument");
+						            }								    
 								System.out.println("in case 0");
 								break;
 						 
@@ -136,24 +122,12 @@ public class TestngDemo {
 								   System.out.println(p);
 								   try{
 								   m1.invoke(obj1,p);
-						           }catch(Exception e) {
-						        	   Method[] methodArray = super.getClass().getMethods();
-										 for(int i=0; i < methodArray.length; i++)
-										 {
-										   if(methodArray[i].getName().equalsIgnoreCase(methodName))
-										   {
-										         try {
-										         Object sp = super.getClass().newInstance();
-										         Object ob=new Object();
-										         ob=p;
-										         methodArray[i].invoke(sp,p);
-										         } catch(Exception ex) 
-										         {
-										        break;
-										         }
-										    }
-										  }
+						           }catch(Exception e) 
+								   {
+						        	   System.out.println("error while invoking method with one argument");
 						           }
+										  
+						           
 								   System.out.println("in case 1");
 								   break;
 						case 2: Class cls2=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
@@ -161,7 +135,13 @@ public class TestngDemo {
 								Method m2=cls2.getMethod(methodName,String.class,String.class);
 								String p1=ReadExcelData.DataMap.get(parameterList.get(0));
 								String p2=ReadExcelData.DataMap.get(parameterList.get(1));
-								m2.invoke(obj2,p1,p2);
+								
+								try{
+									m2.invoke(obj2,p1,p2);
+							       }catch(Exception e) 
+									{
+							         System.out.println("error while invoking method with two arguments");
+							        }
 								System.out.println("in case 2");
 								break;  
 						    
@@ -172,21 +152,23 @@ public class TestngDemo {
 	                        	String p5=ReadExcelData.DataMap.get(parameterList.get(1));
 	                        	String p6=ReadExcelData.DataMap.get(parameterList.get(2));
 				            	m3.invoke(obj3,p4,p5,p6);
+				            	try{
+				            		m3.invoke(obj3,p4,p5,p6);
+							       }catch(Exception e) 
+									{
+							         System.out.println("error while invoking method with three arguments");
+							        }
+								
 								System.out.println("in case 4");
 								break;
 				            
 						default:System.out.println("invalid option");
-
-
-					
-					}//switch
-				
-			
-			}while(rs1.next());//while
+					}//switch		
+				}while(rs1.next());//while
 			rs1.moveFirst();
-			
 			Thread.sleep(3000);
 		}//while
+		UtilityClass.test.log(LogStatus.INFO,"testcase"+testcasename+"end");
 		}//while
 		
 		}catch(Exception e) 
@@ -195,10 +177,5 @@ public class TestngDemo {
 		}
 		
 	}
-	/*@AfterMethod
-	public void tearDown()
-	{
-		UtilityClass.closeApplication();
-	}*/
-
+	
 }

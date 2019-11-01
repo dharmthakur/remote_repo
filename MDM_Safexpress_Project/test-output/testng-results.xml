@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22154" started-at="2019-10-31T08:58:33Z" finished-at="2019-10-31T08:58:55Z">
+  <suite name="Default suite" duration-ms="31377" started-at="2019-11-01T10:45:20Z" finished-at="2019-11-01T10:45:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22154" started-at="2019-10-31T08:58:33Z" finished-at="2019-10-31T08:58:55Z">
+    <test name="Default test" duration-ms="31377" started-at="2019-11-01T10:45:20Z" finished-at="2019-11-01T10:45:51Z">
       <class name="com.safexp.MDM.automation.testcases.TestngDemo">
-        <test-method status="PASS" signature="driverInitialisation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@6574b225]" name="driverInitialisation" is-config="true" duration-ms="5507" started-at="2019-10-31T14:28:33Z" finished-at="2019-10-31T14:28:38Z">
+        <test-method status="PASS" signature="driverInitialisation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@48eff760]" name="driverInitialisation" is-config="true" duration-ms="89" started-at="2019-11-01T16:15:20Z" finished-at="2019-11-01T16:15:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInitialisation -->
-        <test-method status="PASS" signature="hybridTestAutomation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@6574b225]" name="hybridTestAutomation" duration-ms="16624" started-at="2019-10-31T14:28:38Z" finished-at="2019-10-31T14:28:55Z">
+        <test-method status="PASS" signature="hybridTestAutomation()[pri:0, instance:com.safexp.MDM.automation.testcases.TestngDemo@48eff760]" name="hybridTestAutomation" duration-ms="31270" started-at="2019-11-01T16:15:20Z" finished-at="2019-11-01T16:15:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hybridTestAutomation -->

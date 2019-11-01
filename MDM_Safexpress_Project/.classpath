@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="jars/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="jars/selenium-server-standalone-2.53.1.jar"/>
 	<classpathentry kind="lib" path="jars/testng-6.7.jar"/>
+	<classpathentry kind="lib" path="jars/extentreports-2.41.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

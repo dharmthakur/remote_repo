@@ -1,0 +1,24 @@
+2019-11-01 16:07:30 INFO  UtilityClass:37 - in beforetest
+2019-11-01 16:07:31 INFO  BaseClass:13 - Application is launching
+2019-11-01 16:07:43 INFO  BaseClass:15 - Application launched
+2019-11-01 16:07:45 INFO  BaseClass:20 - Application is being closed
+2019-11-01 16:07:45 INFO  BaseClass:22 - Application is closed
+2019-11-01 16:07:48 INFO  BaseClass:13 - Application is launching
+2019-11-01 16:07:57 INFO  BaseClass:15 - Application launched
+2019-11-01 16:07:59 INFO  BaseClass:20 - Application is being closed
+2019-11-01 16:07:59 INFO  BaseClass:22 - Application is closed
+2019-11-01 16:15:20 INFO  UtilityClass:37 - in beforetest
+2019-11-01 16:15:20 INFO  BaseClass:13 - Application is launching
+2019-11-01 16:15:31 INFO  BaseClass:15 - Application launched
+2019-11-01 16:15:31 INFO  Loginpage:16 - clicking on login button
+2019-11-01 16:15:31 INFO  Loginpage:18 - providing mobile number in username input field
+2019-11-01 16:15:32 INFO  LoginNext:13 - providing password in the password field
+2019-11-01 16:15:33 INFO  BaseClass:20 - Application is being closed
+2019-11-01 16:15:33 INFO  BaseClass:22 - Application is closed
+2019-11-01 16:15:36 INFO  BaseClass:13 - Application is launching
+2019-11-01 16:15:46 INFO  BaseClass:15 - Application launched
+2019-11-01 16:15:46 INFO  Loginpage:16 - clicking on login button
+2019-11-01 16:15:46 INFO  Loginpage:18 - providing mobile number in username input field
+2019-11-01 16:15:47 INFO  LoginNext:13 - providing password in the password field
+2019-11-01 16:15:48 INFO  BaseClass:20 - Application is being closed
+2019-11-01 16:15:48 INFO  BaseClass:22 - Application is closed
