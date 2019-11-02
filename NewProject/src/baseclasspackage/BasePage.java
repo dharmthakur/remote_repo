@@ -21,13 +21,13 @@ import java.io.*;
 
 
 public class BasePage {
+	
 	public Logger log=Logger.getLogger(BasePage.class.getName());
 	private static final boolean alwaysRun = false;
 	public WebDriver driver;
 	public ExtentReports report;
 	public ExtentTest logger;
-	
-	
+		
 	public void initialise(String browser,String url){
 		initExtentreport();
 		getWebdriver(browser);
