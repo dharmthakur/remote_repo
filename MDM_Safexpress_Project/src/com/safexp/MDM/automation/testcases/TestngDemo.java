@@ -18,6 +18,8 @@ import org.testng.annotations.Test;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.safexp.MDM.automation.Utility.UtilityClass;
 
@@ -25,12 +27,13 @@ import com.safexp.MDM.automation.managerClasses.ReadExcelData;
 import com.safexp.MDM.automation.pagelibrary.Loginpage;
 
 public class TestngDemo {
-	
+	//public static ExtentReports report;
+	public static ExtentTest test;
 	@BeforeTest
 	public void driverInitialisation()
 	{
 		UtilityClass.Init();
-		
+		//report=new ExtentReports("Report/report.html",true);
 		
 	}
 	
@@ -38,6 +41,7 @@ public class TestngDemo {
 	@Test
 	public void hybridTestAutomation()
 	{
+		
 		try {
 	/* create connection with data source*/
 		Fillo f=new Fillo();
@@ -49,9 +53,9 @@ public class TestngDemo {
 			
 		String testid=rs.getField("TestCaseID");
 		String testcasename=rs.getField("TestCaseName");
-		UtilityClass.test=UtilityClass.report.startTest(testcasename);
+		test=UtilityClass.report.startTest(testcasename);
 		System.out.println(testid);
-		UtilityClass.test.log(LogStatus.INFO, "Testcase"+testcasename+"is started");
+		test.log(LogStatus.INFO, "Testcase"+testcasename+"is started");
 	/* select all the steps for current testcaseid*/	
 		Recordset rs1=con.executeQuery("select * from submodule1 where TestCaseID='"+testid+"'");
 	/* gettestdata for current testcaseid*/
@@ -168,7 +172,7 @@ public class TestngDemo {
 			rs1.moveFirst();
 			Thread.sleep(3000);
 		}//while
-		UtilityClass.test.log(LogStatus.INFO,"testcase"+testcasename+"end");
+		test.log(LogStatus.INFO,"testcase"+testcasename+"end");
 		}//while
 		
 		}catch(Exception e) 

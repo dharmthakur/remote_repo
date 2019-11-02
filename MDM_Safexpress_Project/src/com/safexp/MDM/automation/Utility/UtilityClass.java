@@ -32,7 +32,7 @@ public class UtilityClass {
     public static WebDriver driver=null;
 	public static Properties OR=null;
 	public static Properties conf=null;
-	public static ExtentTest test=null;
+	
 	public static ExtentReports report=null;
 
 	static Logger log=Logger.getLogger(UtilityClass.class.getName());
@@ -111,7 +111,7 @@ public class UtilityClass {
 	}
 	
 	public static void intitExtentReport() {
-		report=new ExtentReports("Report/report.html");
+		report=new ExtentReports("Report/report.html",true);
 		
 	}
 }

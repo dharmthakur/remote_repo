@@ -7,5 +7,11 @@
 	<classpathentry kind="lib" path="jars/selenium-server-standalone-2.53.1.jar"/>
 	<classpathentry kind="lib" path="jars/testng-6.7.jar"/>
 	<classpathentry kind="lib" path="jars/extentreports-2.41.1.jar"/>
+	<classpathentry kind="lib" path="jars/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="jars/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="jars/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="jars/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="jars/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="jars/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
