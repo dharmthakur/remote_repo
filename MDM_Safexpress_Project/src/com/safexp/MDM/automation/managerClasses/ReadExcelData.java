@@ -20,7 +20,7 @@ public class ReadExcelData {
 		Fillo fillo=new Fillo();
 		try {
 			Connection con=fillo.getConnection("TestData/testdata.xls");
-			Recordset rs=con.executeQuery("select * from Sheet1 where TestCaseID='TC01'");
+			Recordset rs=con.executeQuery("select * from Sheet1 where TestCaseID='"+testid+"'");
 			List<String> fieldList=rs.getFieldNames();
 			
 			List<Map<String,String>> listmap=new ArrayList<Map<String,String>>();

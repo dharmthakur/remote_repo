@@ -8,10 +8,10 @@ public class BaseClass {
 	
 	Logger log=Logger.getLogger(BaseClass.class.getName());
 	
-	public void launchApp()
+	public void launchApp(String s)
 	{
 		log.info("Application is launching");
-		UtilityClass.launchApplication();
+		UtilityClass.launchApplication(s);
 		log.info("Application launched");
 	}
 	
