@@ -15,5 +15,5 @@ public class GoogleSearchPage extends BaseClass{
 		UtilityClass.fn_Click("GoogleSearch_search_bt");
 		log.info("search button is clicked");
 	}
-
+	
 }

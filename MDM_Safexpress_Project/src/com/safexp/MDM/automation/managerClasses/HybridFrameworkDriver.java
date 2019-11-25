@@ -10,22 +10,23 @@ import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 import com.google.common.base.Verify;
+import com.google.common.base.VerifyException;
 import com.safexp.MDM.automation.Utility.UtilityClass;
 
 public class HybridFrameworkDriver {
-	public static void hybridTestAutomation(String testid,String testname,String path)
+	public static void hybridTestAutomation(String testid,String testname,String submodule,String testdatapath,String scriptpath)
 	{
 		
 		try {
 			
 	/* create connection with data source*/
 		Fillo f=new Fillo();
-		Connection con=f.getConnection(path);
+		Connection con=f.getConnection(scriptpath);
 				
 	/* select all the steps for current testcaseid*/	
-		Recordset rs1=con.executeQuery("select * from submodule1 where TestCaseID='"+testid+"'");
+		Recordset rs1=con.executeQuery("select * from "+submodule+" where TestCaseID='"+testid+"'");
 	/* gettestdata for current testcaseid*/
-		ReadExcelData.readData("TestData/testdata.xls",testid);
+		ReadExcelData.readData(testdatapath,testid);
 	/* execute the current testcase for each set of data*/	
 		rs1.next();
 		while(ReadExcelData.DataIt.hasNext())
@@ -75,7 +76,8 @@ public class HybridFrameworkDriver {
 							    m.invoke(obj,null);  
 								System.out.println("in case 0");
 								break;				
-						case 1: Class cls1=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
+						case 1: System.out.println("entered in case 1");
+							    Class cls1=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
 								Object obj1=cls1.newInstance();
 								Method m1=cls1.getMethod(methodName,String.class);
 								String s=parameterList.get(0);
@@ -113,7 +115,8 @@ public class HybridFrameworkDriver {
 		}catch(Exception e) 
 		{
 			UtilityClass.logger.fail("testfailed");
-	        Assert.fail("Screenshot of failure");
+			UtilityClass.extent.flush();
+	        Verify.verify(false);
 		}
 		
 	}

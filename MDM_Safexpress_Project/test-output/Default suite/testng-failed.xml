@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.safexp.MDM.automation.testcases.TestngDemo">
+      <class name="com.safexp.MDM.automation.testcases.Usermanagement.UsercreationTest">
         <methods>
           <include name="hybridTestAutomation" invocation-numbers="0"/>
           <include name="closeOpenWindows"/>
           <include name="driverInitialisation"/>
         </methods>
-      </class> <!-- com.safexp.MDM.automation.testcases.TestngDemo -->
+      </class> <!-- com.safexp.MDM.automation.testcases.Usermanagement.UsercreationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -32,15 +32,17 @@ public class TestListener implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		System.out.println("in onTestFailure");
+	/*	System.out.println("in onTestFailure");
 		String path=UtilityClass.getScreenshot();
+		
 		try {
 			UtilityClass.logger.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(path).build());
 		} catch (IOException e) {
 		
 			e.printStackTrace();
 		}
-		
+		*/
+		UtilityClass.logger.fail("testcase failed:"+result.getName());
 	}
 
 	@Override
@@ -58,6 +60,7 @@ public class TestListener implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult arg0) {
 		System.out.println("in onTestSuccess method");
+		UtilityClass.driver.close();
 
 	}
 

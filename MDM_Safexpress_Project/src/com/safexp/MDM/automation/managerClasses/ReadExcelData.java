@@ -19,7 +19,7 @@ public class ReadExcelData {
 	{System.out.println("entring readData");
 		Fillo fillo=new Fillo();
 		try {
-			Connection con=fillo.getConnection("TestData/testdata.xls");
+			Connection con=fillo.getConnection(path);
 			Recordset rs=con.executeQuery("select * from Sheet1 where TestCaseID='"+testid+"'");
 			List<String> fieldList=rs.getFieldNames();
 			
@@ -31,10 +31,11 @@ public class ReadExcelData {
 				for(int i=3;i<fieldcount;i=i+2)
 				{
 					String fieldname=rs.getField(i).value();
-					
+					System.out.println(fieldname);
 					if((fieldname!=null)&&(fieldname.trim().equalsIgnoreCase("")==false))
 					{
 						String fieldvalue=rs.getField(i+1).value();
+						System.out.println(fieldvalue);
 						map.put(fieldname,fieldvalue);
 						
 					}
@@ -54,27 +55,5 @@ public class ReadExcelData {
 		System.out.println("exiting readData");
 	}
 	
-	/*
-	public void readDataFromExcel(String excelpath)
-	{
-		Fillo fillo=new Fillo();
-		try {
-			Connection con=fillo.getConnection(excelpath);
-			Recordset rs=con.executeQuery("select * from Sheet1");
-			List<String> fieldList=rs.getFieldNames();
-			int fieldcount=fieldList.size();
-			while(rs.next()) {
-			for(int i=0;i<fieldcount;i++)
-			{
-				System.out.print(rs.getField(i).value()+" ");
-			}
-			System.out.println();
-			}
-		} catch (FilloException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	}
-*/
+	
 }

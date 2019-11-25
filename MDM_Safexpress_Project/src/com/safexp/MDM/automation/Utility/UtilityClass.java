@@ -15,6 +15,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -110,7 +111,7 @@ public class UtilityClass {
 			try
 			{
 			driver=new FirefoxDriver();
-			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 		    }catch(Exception e)
 		    {
@@ -132,15 +133,34 @@ public class UtilityClass {
 		driver.close();
 	}
 	
+	public static void clickOnElementByIndexInList(String listxpath,int index)
+	{    String xpath=OR.getProperty(listxpath);
+		 List<WebElement> wb=UtilityClass.driver.findElements(By.xpath(xpath));
+		 wb.get(index-1).click();
+	}
 	
 	
 	public static void fn_Input(String s1,String s)
 	{
-		
+		System.out.println(s);
 		WebElement we=getWebElement(s1);
+		//JavascriptExecutor je=(JavascriptExecutor)driver;
+		//je.executeScript("arguments[0].value='"+s+"'",we);
 		we.sendKeys(s);
 		
 	}
+	
+	public static void fn_SelectByVisibleText(String xpath,String text) {
+		
+	}
+	
+ public static void fn_SelectByIndex(String xpath,String index) {
+		
+	}
+ public static void fn_SelectByValue(String xpath,String value) {
+		
+	}
+ 
 	public static String getTitleOfPage()
 	{
 		return(driver.getTitle());
@@ -149,13 +169,28 @@ public class UtilityClass {
 	{
 		WebElement we=getWebElement(s);
 		we.click();
+		System.out.println("button clicked");
 	}
 	
 	public static WebElement getWebElement(String object)
 	{
 		String xpath=OR.getProperty(object);
+		System.out.println(xpath);
 		WebElement we=driver.findElement(By.xpath(xpath));
 		return we;
+		
+	}
+	public static String getTextOnElement(String Object)
+	{
+		WebElement wb=getWebElement(Object);
+		String text=wb.getText();
+		return text;
+	}
+	public static void scrollToElementIntoView(String object)
+	{
+		WebElement element=getWebElement(object);
+		JavascriptExecutor je=(JavascriptExecutor)driver;
+		je.executeScript("arguments[0].scrollIntoView(true);",element);
 		
 	}
 	public static String getScreenshot()
