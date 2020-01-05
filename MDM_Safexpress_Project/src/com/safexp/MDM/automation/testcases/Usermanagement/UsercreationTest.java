@@ -23,8 +23,7 @@ public class UsercreationTest {
 	public void hybridTestAutomation(String s1, String s2,String s3)
 	{
 		UtilityClass.logger=UtilityClass.extent.createTest(s2);
-		System.out.println("hello");
-		System.out.println(s3);
+		//System.out.println(s3);
 		
 	   	HybridFrameworkDriver.hybridTestAutomation(s1, s2,s3,"TestData/UserManagement_createUser.xls","ScriptDriverSheet/UserManagement/createUser.xls");
 	   	UtilityClass.extent.flush();

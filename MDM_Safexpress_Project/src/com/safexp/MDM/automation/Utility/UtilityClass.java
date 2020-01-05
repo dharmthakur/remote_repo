@@ -23,6 +23,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -45,20 +46,24 @@ public class UtilityClass {
 	
 	static Logger log=Logger.getLogger(UtilityClass.class.getName());
 	public static void Init()
-	{
+	{  // log.info("initialising OR");
 		initOR();
+		//log.info("initialising extentreport");
 		intitExtentReport();
+		//log.info("initialising log");
 		initLogReport();		
 	}
 	
 	public static void initLogReport()
 	{
 		PropertyConfigurator.configure("Log4j/log4j.properties");
-		log.info("in beforetest");
+		//log.info("log  initialised");
 	}
 	public static void Initeration()
 	{
+		//log.info("fetching next data from excel");
 		ReadExcelData.DataMap=ReadExcelData.DataIt.next();
+		//log.info("fetched next data from excel");
 	}
 	
 	public static void initOR() 
@@ -75,13 +80,19 @@ public class UtilityClass {
 		}catch (IOException e)
 		{
 		 logger.fail("Object repository initialisation failed");
+		// log.info("Object repository initialisation failed");
 	    }
+		
+		//log.info("OR initialised");
+		
 	}
 	
 	public static void webDriverInit(String dr)
 	{
+		//log.info("initialising webdriver");
 		if(dr.equalsIgnoreCase("CH"))
 		{
+			//log.info("chrome webdriver is being initialised");
 			try 
 			{
 			System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
@@ -95,6 +106,7 @@ public class UtilityClass {
 		 }
 		else if(dr.equalsIgnoreCase("IE"))
 		 {
+			//log.info("IE webdriver is being initialised");
 			try
 			{
 			System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
@@ -108,6 +120,7 @@ public class UtilityClass {
 		}
 		else if(dr.equalsIgnoreCase("FF")) 
 		{
+			//log.info("firefox webdriver is being initialised");
 			try
 			{
 			driver=new FirefoxDriver();
@@ -119,24 +132,29 @@ public class UtilityClass {
 		    }
 			
 		}
-		
+		//log.info("webdriver initialised successfully");
 	}
 	
 	public static void launchApplication(String url)
 	{   webDriverInit("CH");
 		//String url=conf.getProperty("AppUrl");
+	   // log.info("launching application url");
 		driver.get(url);
-		
+		//log.info("application launched");
 	}
 	public static void closeApplication()
 	{
+		//log.info("closing the application window");
 		driver.close();
 	}
 	
 	public static void clickOnElementByIndexInList(String listxpath,int index)
-	{    String xpath=OR.getProperty(listxpath);
+	{    
+		String xpath=OR.getProperty(listxpath);
 		 List<WebElement> wb=UtilityClass.driver.findElements(By.xpath(xpath));
 		 wb.get(index-1).click();
+		// log.info("specified element in the list is clicked");
+		 
 	}
 	
 	
@@ -147,11 +165,14 @@ public class UtilityClass {
 		//JavascriptExecutor je=(JavascriptExecutor)driver;
 		//je.executeScript("arguments[0].value='"+s+"'",we);
 		we.sendKeys(s);
+		//log.info("input to textfield is done");
 		
 	}
 	
 	public static void fn_SelectByVisibleText(String xpath,String text) {
-		
+		WebElement element=getWebElement(xpath);
+		Select sel=new Select(element);
+		sel.selectByVisibleText(text);
 	}
 	
  public static void fn_SelectByIndex(String xpath,String index) {
@@ -169,14 +190,16 @@ public class UtilityClass {
 	{
 		WebElement we=getWebElement(s);
 		we.click();
-		System.out.println("button clicked");
+		//log.info("specified button is clicked ");
 	}
 	
 	public static WebElement getWebElement(String object)
 	{
+		//log.info("locating webelement");
 		String xpath=OR.getProperty(object);
 		System.out.println(xpath);
 		WebElement we=driver.findElement(By.xpath(xpath));
+		//log.info("webelement found ");
 		return we;
 		
 	}
@@ -191,6 +214,7 @@ public class UtilityClass {
 		WebElement element=getWebElement(object);
 		JavascriptExecutor je=(JavascriptExecutor)driver;
 		je.executeScript("arguments[0].scrollIntoView(true);",element);
+		//log.info("element scrolled into view");
 		
 	}
 	public static String getScreenshot()
@@ -209,8 +233,9 @@ public class UtilityClass {
 		} catch (IOException e) 
 		{
 			System.out.println("Capture Failed "+e.getMessage());
+			//log.info("screenshot capturing failed");
 		}
-		
+		//log.info("screenshot taken");
 		return path;
 	}
 ////	
@@ -219,9 +244,11 @@ public class UtilityClass {
         ExtentHtmlReporter reporter=new ExtentHtmlReporter("./Report/extentreport.html");
 		extent = new ExtentReports();
 	    extent.attachReporter(reporter);
+	    //log.info("extentreport initialised");
 	
 	}
 	public static void closeAllWindow() {
+		//log.info("closing all open windows");
 		driver.quit();
 	}
 }

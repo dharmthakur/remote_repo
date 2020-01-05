@@ -1,0 +1,113 @@
+2019-12-27 23:46:32 INFO  APIFrameworkDriver:65 - ....processing POST Request....
+2019-12-27 23:46:32 INFO  PageForPostRequest:26 - ....initialising headers......
+2019-12-27 23:46:32 INFO  PageForPostRequest:35 - .......headers initialisation done.......
+2019-12-27 23:46:32 INFO  PageForPostRequest:42 - .......creating json string.......
+2019-12-27 23:46:32 INFO  PageForPostRequest:86 - .......json string created.......
+2019-12-27 23:46:32 INFO  APIFrameworkDriver:75 - JSON is:{
+"categoryId":145,
+"defaultBranch": {
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO03",
+"effectiveDate": "2019-12-18",
+"expiryDate": "2020-12-18",
+"isDefault":1,
+"status":1
+},
+"description": "Test",
+"email": "test@test.com",
+"id":0,
+"isAdmin":0,
+"menuHierarchyId":1,
+"mobile": "9745441606",
+"name": "Dharmendra",
+"previlegeBranches": [
+{
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO02",
+"effectiveDate": "2019-12-18",
+"expiryDate": "2020-12-18",
+"isDefault":0,
+"status":0
+}
+],
+"status":1,
+"userId": "12066",
+"userRoles": [
+{
+"addOrRemoveOrUpdate": "add",
+"createdBy": "rahul",
+"description": "fdukhd",
+"effectiveDate": "2019-12-18",
+"expiryDate":"2020-12-18",
+"roleId":1,
+"roleName": "role1",
+"status":1,
+"updatedBy":"ghchv"
+}
+]
+}
+2019-12-27 23:46:32 INFO  PageForPostRequest:92 - .......POST Request is fired for new user :12066.......
+2019-12-27 23:46:35 INFO  PageForPostRequest:135 - .........verifying POST success.....
+2019-12-27 23:46:35 INFO  PageForPostRequest:160 - ...POST Request not successed
+2019-12-27 23:46:45 INFO  APIFrameworkDriver:107 - .............POST Request Processed..................
+2019-12-27 23:47:32 INFO  APIFrameworkDriver:47 - ....processing GET Request....
+2019-12-27 23:47:32 INFO  PageForGetRequest:144 - ....initialising headers......
+2019-12-27 23:47:32 INFO  PageForGetRequest:153 - .......headers initialisation done.......
+2019-12-27 23:47:43 INFO  PageForGetRequest:159 - .......GET Request is fired for 12066........
+2019-12-27 23:48:31 INFO  PageForGetRequest:168 - .....GET Request has been processed
+2019-12-27 23:48:44 INFO  PageForGetRequest:47 - .........verifying GET success.....
+2019-12-27 23:49:28 INFO  PageForGetRequest:70 - ...GET Request not successed
+2019-12-27 23:49:35 INFO  APIFrameworkDriver:61 - ....GET Request Processed....
+2019-12-27 23:50:13 INFO  APIFrameworkDriver:111 - .............Processing PUT Request..................
+2019-12-27 23:50:14 INFO  PageForPutRequest:24 - ....initialising headers......
+2019-12-27 23:50:14 INFO  PageForPutRequest:33 - .......headers initialisation done.......
+2019-12-27 23:50:26 INFO  PageForPutRequest:40 - .......creating json string.......
+2019-12-27 23:50:26 INFO  PageForPutRequest:85 - .......json string created.......
+2019-12-27 23:50:27 INFO  APIFrameworkDriver:121 - JSON is:{
+"categoryId":145,
+"defaultBranch": {
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO03",
+"effectiveDate": "2019-12-09",
+"expiryDate": "2020-12-09",
+"isDefault":1,
+"status":1
+},
+"description": "Test",
+"email": "test@test.com",
+"id":3464,
+"isAdmin":0,
+"menuHierarchyId":1,
+"mobile": "9745441606",
+"name": "Dharmendra",
+"previlegeBranches": [
+{
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO02",
+"effectiveDate": "2019-12-09",
+"expiryDate": "2019-12-19",
+"isDefault":1,
+"status":null
+}
+],
+"status":1,
+"userId": "12066",
+"userRoles": [
+{
+"addOrRemoveOrUpdate": "add",
+"createdBy": "rahul",
+"description": "fdukhd",
+"effectiveDate": "2020-12-09",
+"expiryDate":"2019-12-09",
+"roleId":1,
+"roleName": "role1",
+"status":1,
+"updatedBy":"ghchv"
+}
+]
+}
+2019-12-27 23:50:30 INFO  PageForPutRequest:91 - .......PUT Request is fired for user :12066.......
+2019-12-27 23:50:33 INFO  PageForPutRequest:100 - .....user updated successfully
+2019-12-27 23:50:40 INFO  PageForPutRequest:128 - ...........verifying PUT Request.............
+2019-12-27 23:50:51 INFO  PageForPutRequest:153 - ...PUT Request not successed
+2019-12-27 23:50:59 INFO  APIFrameworkDriver:128 - .............PUT Request Processed..................

@@ -1,0 +1,102 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.safexpress.MDM</groupId>
+  <artifactId>RestAssured</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>RestAssured</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+ 
+  <dependency>
+    <groupId>com.codoid.products</groupId>
+    <artifactId>fillo</artifactId>
+    <version>1.18</version>
+</dependency>
+
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.5</version>
+</dependency>
+
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.1.1</version>
+    <scope>test</scope>
+</dependency>
+
+ <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.7</version>
+    <scope>test</scope>
+</dependency>
+
+
+ 
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.0</version>
+</dependency>
+<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.9.8</version>
+	</dependency>
+<!-- https://mvnrepository.com/artifact/com.google.guava/guava-testlib -->
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava-testlib</artifactId>
+    <version>27.1-jre</version>
+    <scope>test</scope>
+</dependency>
+  </dependencies>
+   <build>
+ 
+    <plugins>
+         
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.0</version>
+            <configuration>
+       <!-- <systemPropertyVariables>
+              	 <Scriptdriversheet>${driversheet}</Scriptdriversheet>
+              	 <testdatasheet>${datasheet}</testdatasheet>  
+            </systemPropertyVariables>
+               <suiteXmlFiles>
+                <suiteXmlFile>${testSuiteName}</suiteXmlFile>
+              </suiteXmlFiles>  
+                <suiteXmlFiles>
+                <suiteXmlFile>testng.xml</suiteXmlFile>
+              </suiteXmlFiles>  -->    
+              <suiteXmlFiles>
+                <suiteXmlFile>testng2.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>     
+    </plugins>
+  </build>  
+  
+</project>

@@ -12,6 +12,7 @@ public class BaseClass {
 	{
 		log.info("Application is launching");
 		UtilityClass.launchApplication(s);
+		//UtilityClass.fn_Click("HomePage_Link");
 		log.info("Application launched");
 	}
 	

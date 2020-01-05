@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.545" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\MDM_Safexpress\RestAssured\target\test-classes;D:\MDM_Safexpress\RestAssured\target\classes;C:\Users\80127\.m2\repository\com\codoid\products\fillo\1.18\fillo-1.18.jar;C:\Users\80127\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\80127\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\80127\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\80127\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\80127\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\80127\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\80127\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\80127\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\80127\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\80127\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\80127\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\80127\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\80127\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Users\80127\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\80127\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\80127\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\80127\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\80127\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Users\80127\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\80127\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Users\80127\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Users\80127\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\80127\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\80127\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\80127\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\80127\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\80127\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\80127\.m2\repository\org\testng\testng\6.7\testng-6.7.jar;C:\Users\80127\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\80127\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\80127\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\80127\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\80127\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\80127\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\80127\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\80127\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\80127\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\80127\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\80127\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\80127\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\80127\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\80127\.m2\repository\com\google\guava\guava-testlib\27.1-jre\guava-testlib-27.1-jre.jar;C:\Users\80127\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\80127\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\80127\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\80127\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\80127\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\80127\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\80127\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\80127\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\80127\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\80127\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\80127\AppData\Local\Temp\surefire1929508622918438464\surefirebooter3696834945278949405.jar C:\Users\80127\AppData\Local\Temp\surefire1929508622918438464 2019-12-27T23-45-40_056-jvmRun1 surefire7347900345011306718tmp surefire_064751895825286196tmp"/>
+    <property name="surefire.test.class.path" value="D:\MDM_Safexpress\RestAssured\target\test-classes;D:\MDM_Safexpress\RestAssured\target\classes;C:\Users\80127\.m2\repository\com\codoid\products\fillo\1.18\fillo-1.18.jar;C:\Users\80127\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\80127\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\80127\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\80127\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\80127\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\80127\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\80127\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\80127\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\80127\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\80127\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\80127\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\80127\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\80127\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Users\80127\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\80127\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\80127\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\80127\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\80127\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Users\80127\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\80127\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Users\80127\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Users\80127\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\80127\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\80127\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\80127\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\80127\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\80127\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\80127\.m2\repository\org\testng\testng\6.7\testng-6.7.jar;C:\Users\80127\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\80127\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\80127\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\80127\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\80127\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\80127\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\80127\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\80127\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\80127\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\80127\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\80127\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\80127\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\80127\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\80127\.m2\repository\com\google\guava\guava-testlib\27.1-jre\guava-testlib-27.1-jre.jar;C:\Users\80127\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\80127\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\80127\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\80127\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\80127\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\80127\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\80127\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\80127\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\80127\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\80127\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\80127"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="D:\MDM_Safexpress\RestAssured"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\80127\AppData\Local\Temp\surefire1929508622918438464\surefirebooter3696834945278949405.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="80127"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\80127\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\80127\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="D:\MDM_Safexpress\RestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\80127\AppData\Local\Microsoft\WindowsApps;C:\Users\80127\AppData\Roaming\npm;C:\Users\80127\AppData\Local\Programs\Git\cmd;D:\softwaRE\eclipse-java-2019-09-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="hybridTestAutomation" classname="com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement" time="5.987">
+    <failure type="com.google.common.base.VerifyException">com.google.common.base.VerifyException
+	at com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement.hybridTestAutomation(APITestUsermanagement.java:30)
+</failure>
+    <system-out><![CDATA[log initialising
+extent report initialising
+2019-12-27 23:45:44 INFO  APIFrameworkDriver:65 - ....processing POST Request....
+2019-12-27 23:45:44 INFO  PageForPostRequest:26 - ....initialising headers......
+2019-12-27 23:45:44 INFO  PageForPostRequest:35 - .......headers initialisation done.......
+categoryId
+145
+defaultBranch_addOrRemoveOrUpdate
+add
+defaultBranch_branchCode
+ABO03
+defaultBranch_effectiveDate
+2019-12-18
+defaultBranch_expiryDate
+2020-12-18
+defaultBranch_isDefault
+1
+defaultBranch_status
+1
+description
+Test
+email
+test@test.com
+id
+0
+isAdmin
+0
+menuHierarchyId
+1
+mobile
+9745441606
+name
+Dharmendra
+previlegeBranches_addOrRemoveOrUpdate
+add
+previlegeBranches_branchCode
+ABO02
+previlegeBranches_effectiveDate
+2019-12-18
+previlegeBranches_expiryDate
+2020-12-18
+previlegeBranches_isDefault
+0
+previlegeBranches_status
+0
+status
+1
+userId
+12066
+userRoles_addOrRemoveOrUpdate
+add
+userRoles_createdBy
+rahul
+userRoles_description
+fdukhd
+userRoles_effectiveDate
+2019-12-18
+userRoles_expiryDate
+2020-12-18
+userRoles_roleId
+1
+userRoles_roleName
+role1
+userRoles_status
+1
+userRoles_updatedBy
+ghchv
+exiting readData
+2019-12-27 23:45:44 INFO  PageForPostRequest:42 - .......creating json string.......
+2019-12-27 23:45:44 INFO  PageForPostRequest:86 - .......json string created.......
+2019-12-27 23:45:44 INFO  APIFrameworkDriver:75 - JSON is:{
+"categoryId":145,
+"defaultBranch": {
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO03",
+"effectiveDate": "2019-12-18",
+"expiryDate": "2020-12-18",
+"isDefault":1,
+"status":1
+},
+"description": "Test",
+"email": "test@test.com",
+"id":0,
+"isAdmin":0,
+"menuHierarchyId":1,
+"mobile": "9745441606",
+"name": "Dharmendra",
+"previlegeBranches": [
+{
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO02",
+"effectiveDate": "2019-12-18",
+"expiryDate": "2020-12-18",
+"isDefault":0,
+"status":0
+}
+],
+"status":1,
+"userId": "12066",
+"userRoles": [
+{
+"addOrRemoveOrUpdate": "add",
+"createdBy": "rahul",
+"description": "fdukhd",
+"effectiveDate": "2019-12-18",
+"expiryDate":"2020-12-18",
+"roleId":1,
+"roleName": "role1",
+"status":1,
+"updatedBy":"ghchv"
+}
+]
+}
+JSON is:{
+"categoryId":145,
+"defaultBranch": {
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO03",
+"effectiveDate": "2019-12-18",
+"expiryDate": "2020-12-18",
+"isDefault":1,
+"status":1
+},
+"description": "Test",
+"email": "test@test.com",
+"id":0,
+"isAdmin":0,
+"menuHierarchyId":1,
+"mobile": "9745441606",
+"name": "Dharmendra",
+"previlegeBranches": [
+{
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO02",
+"effectiveDate": "2019-12-18",
+"expiryDate": "2020-12-18",
+"isDefault":0,
+"status":0
+}
+],
+"status":1,
+"userId": "12066",
+"userRoles": [
+{
+"addOrRemoveOrUpdate": "add",
+"createdBy": "rahul",
+"description": "fdukhd",
+"effectiveDate": "2019-12-18",
+"expiryDate":"2020-12-18",
+"roleId":1,
+"roleName": "role1",
+"status":1,
+"updatedBy":"ghchv"
+}
+]
+}
+2019-12-27 23:45:44 INFO  PageForPostRequest:92 - .......POST Request is fired for new user :12066.......
+2019-12-27 23:45:47 INFO  PageForPostRequest:135 - .........verifying POST success.....
+2019-12-27 23:45:47 INFO  PageForPostRequest:160 - ...POST Request not successed
+2019-12-27 23:45:47 INFO  APIFrameworkDriver:107 - .............POST Request Processed..................
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No such property [maxBackupIndex] in org.apache.log4j.FileAppender.
+log4j:WARN No such property [maxFileSize] in org.apache.log4j.FileAppender.
+]]></system-err>
+  </testcase>
+  <testcase name="hybridTestAutomation" classname="com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement" time="3.494">
+    <failure type="com.google.common.base.VerifyException">com.google.common.base.VerifyException
+	at com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement.hybridTestAutomation(APITestUsermanagement.java:30)
+</failure>
+    <system-out><![CDATA[2019-12-27 23:45:50 INFO  APIFrameworkDriver:47 - ....processing GET Request....
+2019-12-27 23:45:50 INFO  PageForGetRequest:144 - ....initialising headers......
+2019-12-27 23:45:50 INFO  PageForGetRequest:153 - .......headers initialisation done.......
+userId
+12066
+id
+3464
+exiting readData
+2019-12-27 23:45:50 INFO  PageForGetRequest:159 - .......GET Request is fired for 12066........
+2019-12-27 23:45:50 INFO  PageForGetRequest:168 - .....GET Request has been processed
+2019-12-27 23:45:50 INFO  PageForGetRequest:47 - .........verifying GET success.....
+2019-12-27 23:45:50 INFO  PageForGetRequest:70 - ...GET Request not successed
+2019-12-27 23:45:50 INFO  APIFrameworkDriver:61 - ....GET Request Processed....
+]]></system-out>
+  </testcase>
+  <testcase name="hybridTestAutomation" classname="com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement" time="3.578">
+    <failure type="com.google.common.base.VerifyException">com.google.common.base.VerifyException
+	at com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement.hybridTestAutomation(APITestUsermanagement.java:30)
+</failure>
+    <system-out><![CDATA[2019-12-27 23:45:54 INFO  APIFrameworkDriver:111 - .............Processing PUT Request..................
+2019-12-27 23:45:54 INFO  PageForPutRequest:24 - ....initialising headers......
+2019-12-27 23:45:54 INFO  PageForPutRequest:33 - .......headers initialisation done.......
+categoryId
+145
+defaultBranch_addOrRemoveOrUpdate
+add
+defaultBranch_branchCode
+ABO03
+defaultBranch_effectiveDate
+2019-12-09
+defaultBranch_expiryDate
+2020-12-09
+defaultBranch_isDefault
+1
+defaultBranch_status
+1
+description
+Test
+email
+test@test.com
+id
+3464
+isAdmin
+0
+menuHierarchyId
+1
+mobile
+9745441606
+name
+Dharmendra
+previlegeBranches_addOrRemoveOrUpdate
+add
+previlegeBranches_branchCode
+ABO02
+previlegeBranches_effectiveDate
+2019-12-09
+previlegeBranches_expiryDate
+2019-12-19
+previlegeBranches_isDefault
+0
+previlegeBranches_isDefault
+1
+status
+1
+userId
+12066
+userRoles_addOrRemoveOrUpdate
+add
+userRoles_createdBy
+rahul
+userRoles_description
+fdukhd
+userRoles_effectiveDate
+2020-12-09
+userRoles_expiryDate
+2019-12-09
+userRoles_roleId
+1
+userRoles_roleName
+role1
+userRoles_status
+1
+userRoles_updatedBy
+ghchv
+exiting readData
+2019-12-27 23:45:54 INFO  PageForPutRequest:40 - .......creating json string.......
+2019-12-27 23:45:54 INFO  PageForPutRequest:85 - .......json string created.......
+2019-12-27 23:45:54 INFO  APIFrameworkDriver:121 - JSON is:{
+"categoryId":145,
+"defaultBranch": {
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO03",
+"effectiveDate": "2019-12-09",
+"expiryDate": "2020-12-09",
+"isDefault":1,
+"status":1
+},
+"description": "Test",
+"email": "test@test.com",
+"id":3464,
+"isAdmin":0,
+"menuHierarchyId":1,
+"mobile": "9745441606",
+"name": "Dharmendra",
+"previlegeBranches": [
+{
+"addOrRemoveOrUpdate": "add",
+"branchCode": "ABO02",
+"effectiveDate": "2019-12-09",
+"expiryDate": "2019-12-19",
+"isDefault":1,
+"status":null
+}
+],
+"status":1,
+"userId": "12066",
+"userRoles": [
+{
+"addOrRemoveOrUpdate": "add",
+"createdBy": "rahul",
+"description": "fdukhd",
+"effectiveDate": "2020-12-09",
+"expiryDate":"2019-12-09",
+"roleId":1,
+"roleName": "role1",
+"status":1,
+"updatedBy":"ghchv"
+}
+]
+}
+2019-12-27 23:45:54 INFO  PageForPutRequest:91 - .......PUT Request is fired for user :12066.......
+2019-12-27 23:45:54 INFO  PageForPutRequest:100 - .....user updated successfully
+2019-12-27 23:45:54 INFO  PageForPutRequest:128 - ...........verifying PUT Request.............
+2019-12-27 23:45:54 INFO  PageForPutRequest:153 - ...PUT Request not successed
+2019-12-27 23:45:54 INFO  APIFrameworkDriver:128 - .............PUT Request Processed..................
+]]></system-out>
+  </testcase>
+</testsuite>

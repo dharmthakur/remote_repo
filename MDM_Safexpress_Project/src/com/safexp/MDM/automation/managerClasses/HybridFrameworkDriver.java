@@ -41,19 +41,19 @@ public class HybridFrameworkDriver {
 		    
 			String javaclassName=rs1.getField("pagesheet");
 			String methodName=rs1.getField("pagekeyword");
-			System.out.println(javaclassName);
-			System.out.println(methodName);
+			//System.out.println(javaclassName);
+			//System.out.println(methodName);
 			Recordset rs2=con.executeQuery("select * from "+javaclassName+" where pagekeyword='"+methodName+"'"); 
 			int fieldcount=rs2.getFieldNames().size();
 			int count=0;
-			System.out.println(fieldcount);
+			//System.out.println(fieldcount);
 			rs2.next();
 			
 			List<String> parameterList=new ArrayList<String>();
 				for(int i=1;i<fieldcount;i++)
 				{   
 					String fieldname=rs2.getField(i).value();
-					System.out.println(fieldname);
+					//System.out.println(fieldname);
 					if(fieldname!=null&&fieldname.trim().equalsIgnoreCase("")==false)
 					{
 					parameterList.add(rs2.getField(i).value());
@@ -66,7 +66,7 @@ public class HybridFrameworkDriver {
 					
 				}
 			
-				System.out.println(count);
+				//System.out.println(count);
 					
 						switch(count)
 						{
@@ -74,16 +74,16 @@ public class HybridFrameworkDriver {
 								Object obj=cls.newInstance();
 							    Method m=cls.getMethod(methodName,null);
 							    m.invoke(obj,null);  
-								System.out.println("in case 0");
+								//System.out.println("in case 0");
 								break;				
-						case 1: System.out.println("entered in case 1");
+						case 1: //System.out.println("entered in case 1");
 							    Class cls1=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
 								Object obj1=cls1.newInstance();
 								Method m1=cls1.getMethod(methodName,String.class);
 								String s=parameterList.get(0);
-								System.out.println(s);
+								//System.out.println(s);
 								String p=ReadExcelData.DataMap.get(s);
-								System.out.println(p);
+								//System.out.println(p);
 								m1.invoke(obj1,p);						          
 								break;
 						case 2: Class cls2=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
@@ -92,7 +92,7 @@ public class HybridFrameworkDriver {
 								String p1=ReadExcelData.DataMap.get(parameterList.get(0));
 								String p2=ReadExcelData.DataMap.get(parameterList.get(1));						
 							    m2.invoke(obj2,p1,p2);
-							    System.out.println("in case 2");
+							    //System.out.println("in case 2");
 							    break; 						    
 						case 3: Class cls3=Class.forName("com.safexp.MDM.automation.pagelibrary."+javaclassName);
 	                        	Object obj3=cls3.newInstance();
@@ -101,7 +101,7 @@ public class HybridFrameworkDriver {
 	                        	String p5=ReadExcelData.DataMap.get(parameterList.get(1));
 	                        	String p6=ReadExcelData.DataMap.get(parameterList.get(2));
 				            	m3.invoke(obj3,p4,p5,p6);							   								
-								System.out.println("in case 4");
+								//System.out.println("in case 4");
 								break;
 				            
 						default:System.out.println("invalid option");

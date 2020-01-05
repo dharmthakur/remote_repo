@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="299124" started-at="2019-12-27T18:16:31Z" finished-at="2019-12-27T18:21:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="299124" started-at="2019-12-27T18:16:31Z" finished-at="2019-12-27T18:21:30Z">
+      <class name="com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement">
+        <test-method status="PASS" signature="Init()[pri:0, instance:com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement@a9cd3b1]" name="Init" is-config="true" duration-ms="259" started-at="2019-12-27T23:46:31Z" finished-at="2019-12-27T23:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="FAIL" signature="hybridTestAutomation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement@a9cd3b1]" name="hybridTestAutomation" duration-ms="48474" started-at="2019-12-27T23:46:32Z" data-provider="apidataprovider" finished-at="2019-12-27T23:47:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestCase1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Usermanagement]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[subusermanagement]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.google.common.base.VerifyException">
+            <full-stacktrace>
+              <![CDATA[com.google.common.base.VerifyException
+	at com.google.common.base.Verify.verify(Verify.java:100)
+	at com.safexpress.MDM.API_Automation.managerClass.APIFrameworkDriver.automateAPITestcase(APIFrameworkDriver.java:142)
+	at com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement.hybridTestAutomation(APITestUsermanagement.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.google.common.base.VerifyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hybridTestAutomation -->
+        <test-method status="FAIL" signature="hybridTestAutomation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement@a9cd3b1]" name="hybridTestAutomation" duration-ms="148227" started-at="2019-12-27T23:47:31Z" data-provider="apidataprovider" finished-at="2019-12-27T23:49:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestCase2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Usermanagement]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[subusermanagement]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.google.common.base.VerifyException">
+            <full-stacktrace>
+              <![CDATA[com.google.common.base.VerifyException
+	at com.google.common.base.Verify.verify(Verify.java:100)
+	at com.safexpress.MDM.API_Automation.managerClass.APIFrameworkDriver.automateAPITestcase(APIFrameworkDriver.java:142)
+	at com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement.hybridTestAutomation(APITestUsermanagement.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.google.common.base.VerifyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hybridTestAutomation -->
+        <test-method status="FAIL" signature="hybridTestAutomation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement@a9cd3b1]" name="hybridTestAutomation" duration-ms="73932" started-at="2019-12-27T23:50:06Z" data-provider="apidataprovider" finished-at="2019-12-27T23:51:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestCase3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Usermanagement]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[subusermanagement]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.google.common.base.VerifyException">
+            <full-stacktrace>
+              <![CDATA[com.google.common.base.VerifyException
+	at com.google.common.base.Verify.verify(Verify.java:100)
+	at com.safexpress.MDM.API_Automation.managerClass.APIFrameworkDriver.automateAPITestcase(APIFrameworkDriver.java:142)
+	at com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement.hybridTestAutomation(APITestUsermanagement.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.google.common.base.VerifyException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hybridTestAutomation -->
+      </class> <!-- com.safexpress.MDM.API_Automation.testcases.APITestUsermanagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

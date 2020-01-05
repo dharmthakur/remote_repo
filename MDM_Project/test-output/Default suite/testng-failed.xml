@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.safexp.MDM.automation.testcases.Usermanagement.UsercreationTest">
+        <methods>
+          <include name="hybridTestAutomation" invocation-numbers="0 1"/>
+          <include name="closeOpenWindows"/>
+          <include name="OR_Log_Extent_Initialisation"/>
+          <include name="closeOpenWindows1"/>
+        </methods>
+      </class> <!-- com.safexp.MDM.automation.testcases.Usermanagement.UsercreationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

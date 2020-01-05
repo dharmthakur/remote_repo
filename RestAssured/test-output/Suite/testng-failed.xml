@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="test1(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="com.safexpress.MDM.API_Automation.testcases.UsermanagementAPITest">
+        <methods>
+          <include name="TestCase" invocation-numbers="0 1 2"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- com.safexpress.MDM.API_Automation.testcases.UsermanagementAPITest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
