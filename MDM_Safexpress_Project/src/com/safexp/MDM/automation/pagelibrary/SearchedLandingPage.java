@@ -1,6 +1,5 @@
 package com.safexp.MDM.automation.pagelibrary;
 
-import static org.testng.Assert.assertThrows;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
