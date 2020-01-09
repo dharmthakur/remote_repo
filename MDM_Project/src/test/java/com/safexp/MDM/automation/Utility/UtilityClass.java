@@ -23,6 +23,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -92,8 +93,13 @@ public class UtilityClass {
 		{
 			try 
 			{
-			System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
-	    	driver=new ChromeDriver();
+			//System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+			  ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("--no-sandbox");
+			driver=new ChromeDriver(chromeOptions);
+	    	//driver=new ChromeDriver();
 		    driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		    driver.manage().window().maximize();
 	        }catch(Exception e)
@@ -105,7 +111,8 @@ public class UtilityClass {
 		 {
 			try
 			{
-			System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+			//System.setProperty("webdriver.ie.driver","drivers/IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver","/usr/bin/IEDriverServer");
 			driver=new InternetExplorerDriver();
 			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 			driver.manage().window().maximize();
@@ -284,7 +291,8 @@ public class UtilityClass {
 		
 		File src=ts.getScreenshotAs(OutputType.FILE);
 		
-		String path=System.getProperty("user.dir")+"/Report/Screenshots/"+System.currentTimeMillis()+".png";
+		//String path=System.getProperty("user.dir")+"/Report/"+System.currentTimeMillis()+".png";
+		String path="./Report/Screenshots/"+System.currentTimeMillis()+".png";
 		System.out.println(path);
 		File destination=new File(path);
 		
@@ -299,6 +307,21 @@ public class UtilityClass {
 		return path;
 	}
 ////	
+	public static void deleteFolder(File folder) {
+		log.info("clearing Report directory");
+	    File[] files = folder.listFiles();
+	    if(files!=null) { //some JVMs return null for empty dirs
+	        for(File f: files) {
+	            if(f.isDirectory()) {
+	                deleteFolder(f);
+	            } else {
+	                f.delete();
+	            }
+	        }
+	    }
+	    //folder.delete();
+	}
+	
 	public static void intitExtentReport() 
 	{
         ExtentHtmlReporter reporter=new ExtentHtmlReporter("./Report/extentreport.html");

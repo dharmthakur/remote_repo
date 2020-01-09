@@ -108,7 +108,7 @@ public class HybridFrameworkDriver {
 					}//switch		
 				}while(rs1.next());//while
 			rs1.moveFirst();
-			Thread.sleep(3000);
+			//Thread.sleep(3000);
 		}//while
 //Testcase finished		
 		

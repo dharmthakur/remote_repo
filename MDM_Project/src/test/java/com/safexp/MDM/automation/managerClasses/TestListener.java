@@ -11,6 +11,7 @@ import com.safexp.MDM.automation.Utility.UtilityClass;
 
 public class TestListener implements ITestListener{
 
+	String dot=".";
 	public void onFinish(ITestContext arg0) {
 		System.out.println("in onFinish method");
 		
@@ -29,7 +30,7 @@ public class TestListener implements ITestListener{
 
 	public void onTestFailure(ITestResult result) {
 		System.out.println("in onTestFailure");
-		String path=UtilityClass.getScreenshot(result);
+		String path=dot+UtilityClass.getScreenshot(result);
 		
 		try {
 			UtilityClass.logger.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(path).build());

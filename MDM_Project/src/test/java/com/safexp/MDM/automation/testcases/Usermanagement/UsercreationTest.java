@@ -1,5 +1,7 @@
 package com.safexp.MDM.automation.testcases.Usermanagement;
 
+import java.io.File;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -10,12 +12,12 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 import com.google.common.base.Verify;
 import com.safexp.MDM.automation.Utility.UtilityClass;
+import com.safexp.MDM.automation.Utility.ZipUtils;
 import com.safexp.MDM.automation.managerClasses.HybridFrameworkDriver;
 //@Listeners(com.safexp.MDM.automation.managerClasses.TestListener.class)
 public class UsercreationTest {
@@ -28,6 +30,7 @@ public class UsercreationTest {
 	public void OR_Log_Extent_Initialisation()
 	{
 		UtilityClass.Init();
+		UtilityClass.deleteFolder(new File(System.getProperty("user.dir")+"/Report"));
 		//UtilityClass.launchUrl("FF","http://internal-a856c3eb127ab11ea9bac0a3257c4306-1690014006.ap-south-1.elb.amazonaws.com");
     }
 	
@@ -52,12 +55,12 @@ public class UsercreationTest {
 		System.out.println("hello");
 		System.out.println(s3);
 		
-		datasheet=System.getProperty("testdatasheet");
-		System.out.println(datasheet);
+		//datasheet=System.getProperty("testdatasheet");
+	//	System.out.println(datasheet);
 	  
-		//HybridFrameworkDriver.hybridTestAutomation(s1, s2,s3,"TestData/UserManagement_createUser.xls","ScriptDriverSheet/UserManagement/createUser.xls");
-	   	HybridFrameworkDriver.hybridTestAutomation(s1, s2,s3,datasheet,drvrsheet);
-	    //UtilityClass.extent.flush();
+		HybridFrameworkDriver.hybridTestAutomation(s1, s2,s3,"TestData/UserManagement_createUser.xls","ScriptDriverSheet/UserManagement/createUser.xls");
+	   	//HybridFrameworkDriver.hybridTestAutomation(s1, s2,s3,datasheet,drvrsheet);
+	    UtilityClass.extent.flush();
 		  
 		  
 		  
@@ -73,10 +76,10 @@ public class UsercreationTest {
 	
 	Fillo f=new Fillo();
 	try {
-		drvrsheet=System.getProperty("Scriptdriversheet");
+		//drvrsheet=System.getProperty("Scriptdriversheet");
 		//System.out.println(drvrsheet);
-	//conn=f.getConnection("ScriptDriverSheet/UserManagement/createUser.xls");
-	conn=f.getConnection(drvrsheet);
+	conn=f.getConnection("ScriptDriverSheet/UserManagement/createUser.xls");
+	//conn=f.getConnection(drvrsheet);
 	record=conn.executeQuery("select TestCaseID,TestCaseName,SubmoduleName from DriverSheet where ExecutionMode='y'");
 	
 	n=record.getCount();
@@ -107,6 +110,12 @@ public void closeOpenWindows()
 	System.out.println("after test");
 	//UtilityClass.driver.close();
     //UtilityClass.closeAllWindow();
+	try {
+		ZipUtils.zipReportFile();
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 }
 @AfterMethod
 public void closeOpenWindow()

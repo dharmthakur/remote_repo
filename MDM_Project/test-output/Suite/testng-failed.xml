@@ -8,7 +8,7 @@
     <classes>
       <class name="com.safexp.MDM.automation.testcases.Usermanagement.UsercreationTest">
         <methods>
-          <include name="hybridTestAutomation" invocation-numbers="0 1"/>
+          <include name="hybridTestAutomation" invocation-numbers="0"/>
           <include name="appLaunch"/>
           <include name="closeOpenWindows"/>
           <include name="OR_Log_Extent_Initialisation"/>

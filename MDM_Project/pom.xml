@@ -65,16 +65,16 @@
             <version>2.22.0</version>
             <configuration>
              
-            <systemPropertyVariables>
+        <!--     <systemPropertyVariables>
               	 <Scriptdriversheet>${driversheet}</Scriptdriversheet>
               	 <testdatasheet>${datasheet}</testdatasheet>  
-            </systemPropertyVariables>
+            </systemPropertyVariables> 
                <suiteXmlFiles>
                 <suiteXmlFile>${testSuiteName}</suiteXmlFile>
-              </suiteXmlFiles>  
-             <!--   <suiteXmlFiles>
-                <suiteXmlFile>testng.xml</suiteXmlFile>
               </suiteXmlFiles>  -->
+           <suiteXmlFiles>
+             <suiteXmlFile>testng.xml</suiteXmlFile>
+           </suiteXmlFiles>
               
             </configuration>
           </plugin>     
